@@ -15,7 +15,6 @@
 当然除了选择左下角的数字外，也可以选择右上角的数字，查找方法类似。
   下面我以Java为编程语言，展示上述算法的处理过程。
   
-```java  
 package array;
 /**
  * @author WuPing
@@ -88,4 +87,3 @@ public class FindInPartiallySortedMatrix {
 	
     }
 }
-```
