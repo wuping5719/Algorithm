@@ -108,7 +108,7 @@ job_t yelp = {
     .left     = CURRENT,
     .description = {
         "Developed several internal tools and libraries",
-        "Provided critical input and design work for Yelp's launch in Japan",
+        "Provided critical input and design work for OUC's launch in China",
         NULL
     }
 };
