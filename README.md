@@ -19,3 +19,6 @@
     5)基数排序。  
     6)计数排序；桶排序。
   <p><img src="http://img.blog.csdn.net/20160416161924296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
+  **# 4.蛇形矩阵**  
+  序号10为蛇形矩阵，序号11为螺旋矩阵。 
+  <p><img src="http://img.blog.csdn.net/20160428105514716?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
