@@ -21,9 +21,9 @@
     
   <h2>2.内部排序(Internal Sort)</h2>
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
-    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a>  
   &nbsp;&nbsp;序号12为内部排序算法总结：包含13个子文件。  
-  &nbsp;所列排序算法有：  
+  所列排序算法有：  
   &nbsp;&nbsp; 1) 插入排序：(1)直接插入排序，(2)折半插入排序，(3)2路插入排序，(4)希尔排序。  
   &nbsp;&nbsp; 2)交换排序：(1)冒泡排序，(2)快速排序。  
   &nbsp;&nbsp; 3)选择排序：(1)直接选择排序，(2)树形选择排序，(3)堆排序。  
