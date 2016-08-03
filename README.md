@@ -45,3 +45,7 @@
   **# (3)螺旋矩阵(SpiralqMatrix)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-3-SpiralqMatrix.java" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+   
+  **# (4)教徒问题-约瑟夫环(JosephRing)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-4-JosephRing.java" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
