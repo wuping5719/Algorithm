@@ -70,3 +70,23 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-9-CloneTest" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
    
+  <h2>4.C&C++面试(C-And-CPlusPlus-Interview)</h2>
+  **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+   
+  **# (2)中国象棋将帅对决:(GeneralsOfChineseChess)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-2-GeneralsOfChineseChess.cpp" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+   
+  **# (3)求最大公约数:(GreatestCommonDivisor)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-3-GreatestCommonDivisor.cpp" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+  
+  **# (4)求无符号整数中1的个数:(NumOfOne)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-4-NumOfOne.cpp" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
+   
+  **# (5)C程序自动生成简历:(ResumeByC)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
