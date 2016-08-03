@@ -37,7 +37,11 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-RegularExpression.java" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a>  
    
-  **# (2)蛇形矩阵(SnakeMatrix )**  
+  **# (2)蛇形矩阵(SnakeMatrix)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-2-SnakeMatrix.java" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a>  
   <p><img src="http://img.blog.csdn.net/20160428105514716?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
+
+  **# (3)螺旋矩阵(SpiralqMatrix)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-3-SpiralqMatrix.java" 
+   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">打开链接</a> 
