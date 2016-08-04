@@ -71,8 +71,10 @@
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    
   **# (10)对象构造器:(ObjectConstructor)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-10-ObjectConstructor.java" 
-   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-10-ObjectConstructor.java"  target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+   
+  **# (11)异常类:(ExceptionTest)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-11-ExceptionTest.java"  target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    
   <h2>4.C&C++面试(C-And-CPlusPlus-Interview)</h2>
   **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
