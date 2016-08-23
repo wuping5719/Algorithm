@@ -1,7 +1,5 @@
 package swordOffer;
 
-import java.util.Scanner;
-
 import swordOffer.ListNode;
 
 /** 
@@ -38,29 +36,28 @@ public class DeleteNodeInList_13 {
 	}
 	
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		while (in.hasNext()) {
-			int n = in.nextInt();
-			
-			if(n>0){
-				ListNode headNode = new ListNode(in.nextInt());
-				for(int i=1; i<n; i++){
-					headNode.next = new ListNode(in.nextInt());
-				}
-				
-				ListNode pToBeDeleted = new ListNode(in.nextInt());
-				DeleteNode(headNode, pToBeDeleted);
-				
-				if(headNode !=null){
-					ListNode pNode = headNode;
-					while(pNode.next != null){
-						System.out.print(pNode.val +" ");
-						pNode = pNode.next;
-					}
-				}
+		ListNode listNode1 = new ListNode(1);
+		ListNode listNode2 = new ListNode(2);
+		ListNode listNode3 = new ListNode(3);
+		ListNode listNode4 = new ListNode(4);
+		ListNode listNode5 = new ListNode(5);
+		ListNode listNode6 = new ListNode(6);
+		listNode1.next = listNode2;
+		listNode2.next = listNode3;
+		listNode3.next = listNode4;
+		listNode4.next = listNode5;
+		listNode5.next = listNode6;
+		
+		ListNode pToBeDeleted = listNode2;
+		DeleteNode(listNode1, pToBeDeleted);
+		
+		if(listNode1 !=null){
+			ListNode pNode = listNode1;
+			while(pNode != null){
+				System.out.print(pNode.val +" ");
+				pNode = pNode.next;
 			}
 		}
-		in.close();
 	}
 
 }
