@@ -27,6 +27,10 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/1-Sword-Offer/1-5-PrintListInReversedOrder_05" 
     style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">从尾到头打印链表</a>
     
+  **# (5)重建二叉树(ConstructBinaryTree)**  
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/1-Sword-Offer/1-6-ConstructBinaryTree" 
+    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">重建二叉树</a>
+    
   <h2>2.内部排序(Internal Sort)</h2>
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
     target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
