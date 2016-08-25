@@ -67,6 +67,7 @@ public class MoreThanHalfNumber_29 {
     private static int Partition(int[] array, int start, int end) {
 	if(array ==null || array.length <= 0 || start < 0 || end >= array.length) {
 	    System.out.println("非法参数!");
+	    return 0;
 	}
 	Swap(array[0], array[end]);
 	
