@@ -19,7 +19,8 @@ public class SerializeBinaryTrees_62 {
 	     sb.append(Serialize(root.right));
 	     return sb.toString();
 	}
-
+	
+        //反序列化时静态Static index有问题
 	public static TreeNode Deserialize(String str) {
 		index++;
 		int len = str.length();
