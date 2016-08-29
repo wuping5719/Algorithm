@@ -13,6 +13,9 @@ public class TransFormImage_6 {
 	  在第一步之前先存储“上”中的值.
 	*/
 	public static int[][] transformImage1(int[][] mat, int n) {
+		if(mat==null || n<=0){
+			return null;
+		}
 		for(int layer = 0; layer < n/2; layer++){
             int first = layer;
             int last = n-1-layer;
@@ -35,6 +38,9 @@ public class TransFormImage_6 {
 	// 方法二
 	// 两次交换：1.交换副对角线上的数, 2.第i行和第n-i-1交换(i从0开始计数)
 	public static int[][] transformImage2(int[][] mat, int n) {
+		if(mat==null || n<=0){
+			return null;
+		}
 		// 交换副对角线上的数
 		for (int i = 0; i < n - 1; i++) {
 			for (int j = 0; j < n - i - 1; j++) {
