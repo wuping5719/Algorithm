@@ -26,7 +26,9 @@ public class ExchangeOddEven_27 {
     }
     
     public static void main(String[] args) {
-
+        int x = 18;
+        int result = exchangeOddEven1(x);
+        System.out.println(result);
     }
 
 }
