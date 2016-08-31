@@ -85,6 +85,7 @@ public class CheckBST_20 {
 		treeNode3.right = treeNode7;
 		
 		boolean result = checkBST2(treeNode1);
+		queue.clear();
 		System.out.println(result);
 	}
 
