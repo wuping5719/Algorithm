@@ -24,9 +24,10 @@ public class Bus {
 
 	    int site = 1;
 	    double[] sumTime = new double[n];
-	    if (xd >= 100000 || yd >= 100000) {
-		site = n;
-	    } else {
+	    if (xd <= 0) {
+		site = 1;
+	    } 
+	    else {
 		for (int i = 0; i < n; i++) {
 		    double sL = 0.0;
 		    if (zuobiao[i] < xd) {
