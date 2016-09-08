@@ -4,7 +4,7 @@
     《The beauty of programming》（编程之美）.  
     
   <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/1-Sword-Offer">
-   1.Sword-Offer</a></h2>
+   1.剑指Offer(Sword-Offer)</a></h2>
   **# (1)二维数组中查找**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-FindInPartiallySortedMatrix.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
