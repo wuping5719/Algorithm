@@ -107,6 +107,9 @@
    **# (15)中兴机试:(ZTE)**  
    &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    
+   **# (16)浪潮机试:(Inspur)**  
+   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-Inspur" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+   
   <h2>4.C&C++面试(C-And-CPlusPlus-Interview)</h2>
   **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" 
