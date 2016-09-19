@@ -22,6 +22,7 @@ public class JumpingGrasshopper {
      * 解题思路：用到BigInteger处理大整数问题
      */
     
+    // 方法一: 只能出部分结果
     public static String GetNumOfJumpingGrasshopper(BigInteger n) {
 	BigInteger step = BigInteger.ZERO;
 	BigInteger current = BigInteger.ZERO;;
@@ -53,12 +54,43 @@ public class JumpingGrasshopper {
 	return step.toString();
     }
 
+    // 方法二: 闻波的方法
+    /* 思路是：令S=0+1+2+3+...+n, 当且仅当S>x且S-x为偶数时n即为所求次数。
+                    当S>x时我们就可以采用添加负号（即往回走）来让结果=x，只不过因为往回走m的话会导致实际的总和比原来小2m。
+                    所以需要保证1+2+3+...+n - x大于0且为偶数，那么他们的差S-x除以2就是应该添加负号的位置。
+                    比如x=7的时候，1+2+3+4 - 7 =3,为奇数，所以不行，然后到1+2+3+4+5 - 7=8，然后除以2得4，
+                    也就是说只需要-4（或者-1，-3）都可以5步到7的位置.
+    */
+    public static long GetNumOfJumpingGrasshopper2(long x) {
+	long n = (long) Math.floor(Math.sqrt(2.0 * x));
+	if(n*(n+1) < 2*x) {
+	    n += 1;
+	}
+	
+	long result = (Math.abs(n*(n+1) / 2 - x) & 1) >= 0 ? (n+1) : n;
+        if(x==0) {
+            result = 0; 
+        }
+        if(1==Math.abs(x)) {
+            result = 1; 
+        }
+        if(3==Math.abs(x)) {
+            result = 2; 
+        }
+        
+	return result;
+    }
+    
     public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	while (sc.hasNext()) {
-	    BigInteger n = sc.nextBigInteger();
-	    String result = GetNumOfJumpingGrasshopper(n);
-	    System.out.println(result);
+	    //BigInteger n = sc.nextBigInteger();
+	    //String result = GetNumOfJumpingGrasshopper(n);
+	    //System.out.println(result);
+	    
+	    long x = sc.nextLong();
+	    long res = GetNumOfJumpingGrasshopper2(x);
+	    System.out.println(res);
 	}
 	sc.close();
     }
