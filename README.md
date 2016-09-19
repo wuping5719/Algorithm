@@ -46,7 +46,7 @@
   <p><img src="http://img.blog.csdn.net/20160416161924296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
   
   <h2>3.Java面试(Interview about Java)</h2>
-  **# $$ 2016名企秋招 $$ **  
+  <Strong>☆ 2016名企秋招 </Strong>
   <table>
    <tr>
      <td>
@@ -82,7 +82,8 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-22-Le">9.乐视(Le)</a>
      </td>
    </tr>
-</table>
+ </table>
+
   **# (1)从字符串中找出数字子串**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-RegularExpression.java" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
@@ -130,36 +131,15 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-12-TreeSet" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>&nbsp;&nbsp;
   <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-13-TreeMap"  style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
   
-  **# (12)网易有道:(You Dao)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-14-YouDao" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-  
-  **# (13)Java枚举类型:(Enum)**  
+  **# (12)Java枚举类型:(Enum)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-15-EnumOne.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
   
-  **# (14)华为机试:(OJ)**  
+  **# (13)华为机试:(OJ)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-1-CalculateKindNum.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(1)组合种类计算(CalculateKindNum)</a>   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-2-InterceptInteger.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(2)截取数字(InterceptInteger)</a>  
   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-3-LogConter.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(3)对数计数器(LogConter)</a>
   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-4-AddTime.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(4)实现两个合法时间相加(AddTime)</a> 
   
-   **# (15)中兴机试:(ZTE)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
-   **# (16)浪潮机试:(Inspur)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-18-Inspur" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
-   **# (17)网易杭州研发:(NetEase)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-19-NetEaseHangZhou" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
-   **# (18)携程:(Ctrip)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-20-Ctrip" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
-   **# (19)滴滴打车:(DidiTaxi)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-21-DidiTaxi" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
-   **# (20)乐视:(Le)**  
-   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-22-Le" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
-   
   <h2>4.C&C++面试(C-And-CPlusPlus-Interview)</h2>
   **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" 
