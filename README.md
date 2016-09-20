@@ -86,12 +86,8 @@
      <td>
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-23-QiHu360">10.奇虎360(QiHu360)</a>
      </td>
-     <td>
-      
-     </td>
-     <td>
-       
-     </td>
+     <td></td>
+     <td></td>
    </tr>
  </table>
 
