@@ -73,7 +73,7 @@ public class SquargeFree_XiaoXiaoLe {
 		// 向右探索
 		while(right) {
 		    if (col < 9 && p[row][col + 1] == targetColor) {
-			p[row][col] = TRANSPARENT;
+			p[targetX][targetY] = TRANSPARENT;
 			col = col + 1;
 			p[row][col] = TRANSPARENT;
 		    } else {
@@ -86,7 +86,7 @@ public class SquargeFree_XiaoXiaoLe {
 		// 向下探索
 		while(down) {
 		    if (row < 9 && p[row + 1][col] == targetColor) {
-			p[row][col] = TRANSPARENT;
+			p[targetX][targetY] = TRANSPARENT;
 			row = row + 1;
 			p[row][col] = TRANSPARENT;
 		    } else {
@@ -98,7 +98,7 @@ public class SquargeFree_XiaoXiaoLe {
 		// 向左探索
 		while (left) {
 		    if (col > 0 && p[row][col - 1] == targetColor && left) {
-			p[row][col] = TRANSPARENT;
+			p[targetX][targetY] = TRANSPARENT;
 			col = col - 1;
 			p[row][col] = TRANSPARENT;
 		    } else {
@@ -110,7 +110,7 @@ public class SquargeFree_XiaoXiaoLe {
 		// 向上探索
 		while(top) {
 		    if (row > 0 && p[row - 1][col] == targetColor) {
-			p[row][col] = TRANSPARENT;
+			p[targetX][targetY] = TRANSPARENT;
 			row = row - 1;
 			p[row][col] = TRANSPARENT;
 		    } else {
@@ -122,6 +122,40 @@ public class SquargeFree_XiaoXiaoLe {
 		//四个方向都没有颜色相同的格子，退出
 		if(!(left || right || top || down)) {
 		    break;
+		}
+	    }
+	    
+	    // 如果下方有空位则向下移动
+	    for (int j = 0; j < 9; j++) {
+		for (int k = 0; k < 10; k++) {
+                    if(p[j][k]!=TRANSPARENT && p[j+1][k]==TRANSPARENT) {
+                	int temp = p[j][k];
+                	p[j][k] = p[j+1][k];
+                	p[j+1][k] = temp;
+                    }
+		}
+	    }
+	    
+	    // 如果左侧整列都为空位则向左移动
+	    for (int n = 9; n > 0; n--) {
+		int index = 0;
+		boolean isExchange = true;
+		while(index < 10) {
+		    if(p[index][n-1] != TRANSPARENT) {
+			isExchange = false;
+			break;
+		    }
+		    index++;
+		}
+		
+		index = 0;
+		if (isExchange) {
+		    while (index < 10) {
+			int temp = p[index][n-1];
+                	p[index][n-1] = p[index][n];
+                	p[index][n] = temp;
+			index++;
+		    }
 		}
 	    }
 	}
@@ -179,3 +213,4 @@ public class SquargeFree_XiaoXiaoLe {
     }
 
 }
+
