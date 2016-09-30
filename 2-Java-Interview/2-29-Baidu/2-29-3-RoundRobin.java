@@ -21,7 +21,7 @@ public class RoundRobin {
             作业到达时间和作业运行时间根据作业到达时间升序排列。对于同时到达的作业，按照其在到达时间数组中的顺序处理，可以假设，作业到达时，CPU一直未空闲。返回值为使用轮询策略算出的作业平均等待时间（浮点数）。
             假设 0 <= 作业到达时间 < 100 且 0  < 作业运行时间 < 100。
     */
-    public static float waitTimeOfRoundRobin(int[] arrival, int[] run, int q) {
+    public static float averageWaitTimeOfRoundRobin(int[] arrival, int[] run, int q) {
 	Queue<Integer> waitQueue = new LinkedList<Integer>(); // 等待队列: 存放还没运行的任务
 	Queue<Integer> taskQueue = new LinkedList<Integer>(); // 任务队列: 存放正在运行的任务
 
@@ -114,7 +114,7 @@ public class RoundRobin {
 	    }
 
 	    int q = Integer.parseInt(str3);
-	    float averageWaitingTime = waitTimeOfRoundRobin(arrival, run, q);
+	    float averageWaitingTime = averageWaitTimeOfRoundRobin(arrival, run, q);
 	    System.out.println(averageWaitingTime);
 	}
 	cin.close();
