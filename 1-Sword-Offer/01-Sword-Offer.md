@@ -252,4 +252,54 @@
       50.数组中重复的数字(DuplicationInArray)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-52-ArrayConstruction_52.java">
+      51.构建乘积数组(ArrayConstruction)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-53-RegularExpressionsMatching_53.java">
+      52.正则表达式匹配(RegularExpressionsMatching)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-54-NumericString_54.java">
+      53.表示数值的字符串(NumericString)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-55-FirstCharacterInStream_55.java">
+      54.字符流中第一个不重复的字符(FirstCharacterInStream)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-56-EntryNodeInListLoop_56.java">
+      55.链表中环的入口结点(EntryNodeInListLoop)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-57-DeleteDuplicatedListNode_57.java">
+      56.删除链表中重复的结点(DeleteDuplicatedListNode)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-58-NextNodeInBinaryTrees_58.java">
+      57.二叉树的下一个结点(NextNodeInBinaryTrees)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-59-SymmetricalBinaryTree_59.java">
+      58.对称的二叉树(SymmetricalBinaryTree)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-61-PrintTreesInZigzag_61.java">
+      59.按之字形顺序打印二叉树(PrintTreesInZigzag)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-60-PrintTreesInLines_60.java">
+      60.把二叉树打印成多行(PrintTreesInLines)</a>
+    </td>
+  </tr>
 </table>
