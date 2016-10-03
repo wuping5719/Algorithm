@@ -102,4 +102,54 @@
       20.包含min函数的栈(MinInStack)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-22-StackPushPopOrder_22.java">
+      21.栈的压入、弹出序列(StackPushPopOrder)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-23-PrintTreeFromTopToBottom_23.java">
+      22.从上往下打印二叉树(PrintTreeFromTopToBottom)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-24-SquenceOfBST_24.java">
+      23.二叉搜索树的后序遍历序列(SquenceOfBST)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-25-PathInTree_25.java">
+      24.二叉树中和为某一值的路径(PathInTree)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/tree/master/1-Sword-Offer/1-26-CopyComplextList_26">
+      25.复杂链表的复制(CopyComplextList)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-27-ConvertBinarySearchTree_27.java">
+      26.二叉搜索树与双向链表(ConvertBinarySearchTree)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-28-StringPermutation_28.java">
+      27.字符串的排列(StringPermutation)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-29-MoreThanHalfNumber_29.java">
+      28.数组中出现次数超过一半的数字(MoreThanHalfNumber)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-30-KLeastNumbers_30.java">
+      29.最小的K个数(KLeastNumbers)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-31-GreatestSumOfSubarrays_31.java">
+      30.连续子数组的最大和(GreatestSumOfSubarrays)</a>
+    </td>
+  </tr>
 </table>
