@@ -62,4 +62,44 @@
       12.数值的整数次方(Power)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-14-ReorderArray_14.java">
+      13.调整数组顺序使奇数位于偶数前面(ReorderArray)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-15-KthNodeFromEnd_15.java">
+      14.链表中倒数第k个结点(KthNodeFromEnd)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-16-ReverseList_16.java">
+      15.反转链表(ReverseList)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-17-MergeSortedLists_17.java">
+      16.合并两个排序的链表(MergeSortedLists)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-18-SubstructureInTree_18.java">
+      17.树的子结构(SubstructureInTree)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-19-MirrorOfBinaryTree_19.java">
+      18.二叉树的镜像(MirrorOfBinaryTree)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-20-PrintMatrix_20.java">
+      19.顺时针打印矩阵(PrintMatrix)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-21-MinInStack_21.java">
+      20.包含min函数的栈(MinInStack)</a>
+    </td>
+  </tr>
 </table>
