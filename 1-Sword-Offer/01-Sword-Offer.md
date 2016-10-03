@@ -202,4 +202,54 @@
       40.数组中只出现一次的数字(NumbersAppearOnce)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-41-2-ContinuesSquenceWithSum_41_2.java">
+      41.和为S的连续正数序列(ContinuesSquenceWithSum)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-41-1-TwoNumbersWithSum_41_1.java">
+      42.和为S的两个数字(TwoNumbersWithSum)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-42-2-LeftRotateString_42_2.java">
+      43.左旋转字符串(LeftRotateString)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-42-1-ReverseWordsInSentence_42_1.java">
+      44.翻转单词顺序列(ReverseWordsInSentence)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-44-ContinousCards_44.java">
+      45.扑克牌顺子(ContinousCards)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-45-LastNumberInCircle_45.java">
+      46.圆圈中最后剩下的数(LastNumberInCircle)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-46-Accumulate_46.java">
+      47.求1+2+3+...+n(Accumulate)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-47-AddTwoNumbers_47.java">
+      48.不用加减乘除做加法(AddTwoNumbers)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-49-StringToInt_49.java">
+      49.把字符串转换成整数(StringToInt)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-51-DuplicationInArray_51.java">
+      50.数组中重复的数字(DuplicationInArray)</a>
+    </td>
+  </tr>
 </table>
