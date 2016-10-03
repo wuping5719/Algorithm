@@ -152,4 +152,54 @@
       30.连续子数组的最大和(GreatestSumOfSubarrays)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-32-NumberOf1_32.java">
+      31.从1到n整数中1出现的次数(NumberOf1)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-33-SortArrayForMinNumber_33.java">
+      32.把数组排成最小的数(SortArrayForMinNumber)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-34-UglyNumber_34.java">
+      33.丑数(UglyNumber)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-35-FirstNotRepeatingChar_35.java">
+      34.第一个只出现一次的字符位置(FirstNotRepeatingChar)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-36-InversePairs_36.java">
+      35.数组中的逆序对(InversePairs)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-37-FirstCommonNodesInLists_37.java">
+      36.两个链表的第一个公共结点(FirstCommonNodesInLists)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-38-NumberOfK_38.java">
+      37.数字在排序数组中出现的次数(NumberOfK)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-39-1-TreeDepth_39_1.java">
+      38.二叉树的深度(TreeDepth)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-39-2-BalancedBinaryTree_39_2.java">
+      39.平衡二叉树(BalancedBinaryTree)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-40-NumbersAppearOnce_40.java">
+      40.数组中只出现一次的数字(NumbersAppearOnce)</a>
+    </td>
+  </tr>
 </table>
