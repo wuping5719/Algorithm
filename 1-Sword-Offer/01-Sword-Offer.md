@@ -302,4 +302,34 @@
       60.把二叉树打印成多行(PrintTreesInLines)</a>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-62-SerializeBinaryTrees_62.java">
+      61.序列化二叉树(SerializeBinaryTrees)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-63-KthNodeInBST_63.java">
+      62.二叉搜索树的第k个结点(KthNodeInBST)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-64-StreamMedian_64.java">
+      63.数据流中的中位数(StreamMedian)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-65-MaxInSlidingWindow_65.java">
+      64.滑动窗口的最大值(MaxInSlidingWindow)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-66-StringPathMatrix_66.java">
+      65.矩阵中的路径(StringPathMatrix)</a>
+    </td>
+    <td>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-67-RobotMove_67.java">
+      66.机器人的运动范围(RobotMove)</a>
+    </td>
+  </tr>
 </table>
