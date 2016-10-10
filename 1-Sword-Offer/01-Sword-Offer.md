@@ -1,6 +1,7 @@
 <h2>
    <a href="https://github.com/wuping5719/Algorithm/tree/master/1-Sword-Offer">1.剑指Offer(Sword-Offer)</a>
-   <a href="http://www.nowcoder.com/profile/8873320">--牛客地址(URL)</a>
+   --
+   <a href="http://www.nowcoder.com/profile/8873320">牛客地址(URL)</a>
 </h2>
    
 <table>
