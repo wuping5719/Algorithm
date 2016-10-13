@@ -31,7 +31,7 @@
 * 6.Timer线程每隔5秒向Worker线程发送一次消息.(没用过多线程,没写出来，就知道notiy())   
   ` 这个暂时没找到答案，等看完《Thinking in java》并发那章再说吧. `  
   ` Android主线程和子线程之间的消息传递: ` <http://www.cnblogs.com/jackhuclan/archive/2013/07/10/3182084.html>  
-  ` * 要更加深入的了解多线程编程，得做到以下几步: `   
+  ` @要更加深入的了解多线程编程，得做到以下几步: `   
   `(1)从《Concurrent in practice》开始; `  
   `(2)研究JDK各并发类，最终全部理解AQS实现原理(同时进一步了解非阻塞算法);  `  
   `(3)研究JSR133，同时实践;  `   
