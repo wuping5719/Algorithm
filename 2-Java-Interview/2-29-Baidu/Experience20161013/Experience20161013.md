@@ -16,8 +16,8 @@
  ` (7)使用缓存技术; `  
  ` (8)合并多次查询，减少查询次数. `
 * 4.Json格式处理(ECharts), 前端跨域.   
- `1)前端解决跨域问题的8种方案: ` <http://www.cnblogs.com/JChen666/p/3399951.html> 
-  `(1)document.domain + iframe(只有在主域相同的时候才能使用该方法); `   
+ `1)前端解决跨域问题的8种方案: ` <http://www.cnblogs.com/JChen666/p/3399951.html>
+ `(1)document.domain + iframe(只有在主域相同的时候才能使用该方法); `   
   `(2)动态创建script; `   
   `(3)location.hash + iframe(利用location.hash来进行传值); `   
   `(4)window.name + iframe(name 值在不同的页面(甚至不同域名)加载后依旧存在, 并且可以支持非常长的name值(2MB)); `   
