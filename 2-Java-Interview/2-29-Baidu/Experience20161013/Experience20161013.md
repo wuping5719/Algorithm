@@ -68,7 +68,8 @@
   `Linux命令大全: ` <http://www.runoob.com/linux/linux-command-manual.html> 
 
 <Strong>同学B的面经：</Strong>
-* 1.最长非递减子串(动态规划问题)
+* 1.最长非递减子串(动态规划问题)(系列问题：最长公共子串，最长公共子序列)   
+`代码: ` https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/NowCoder/55-CalculatePublicSubString_55.java
 * 2.m*n矩阵，只能向下或向右走，从左上角走到右下角有多少种走？(动态规划问题)   
  `思路: 动态规划, dp[0][0]初始化为1, dp[i][j]的大小为dp[i-1][j]+dp[i][j-1], `   
  `     因为只可能是从(i-1,j)和(i,j-1)这两个位置移动过来的, 计算时保证(i,j)的正上方和左边不在边界外即可. `   
