@@ -16,15 +16,16 @@
  ` (7)使用缓存技术; `  
  ` (8)合并多次查询，减少查询次数. `
 * 4.Json格式处理(ECharts), 前端跨域.
-  `前端解决跨域问题的8种方案: ` <http://www.cnblogs.com/JChen666/p/3399951.html>   
+  `1)前端解决跨域问题的8种方案: <http://www.cnblogs.com/JChen666/p/3399951.html> ` 
   `(1)document.domain + iframe(只有在主域相同的时候才能使用该方法); `   
   `(2)动态创建script; `   
   `(3)location.hash + iframe(利用location.hash来进行传值); `   
   `(4)window.name + iframe(name 值在不同的页面(甚至不同域名)加载后依旧存在, 并且可以支持非常长的name值(2MB)); `   
   `(5)postMessage(HTML5中的XMLHttpRequest Level 2中的API); `   
   `(6)CORS(使用自定义的HTTP头部让浏览器与服务器进行沟通, 从而决定请求或响应是应该成功,还是应该失败); `   
-  `(7)JSONP(当我们通过script标签请求时,后台就会根据相应的参数(json,handleResponse)来生成相应的json数据(handleResponse({"data": "zhe"})),最后这个返回的json数据(代码)就会被放在当前js文件中被执行, 至此跨域通信完成); `   
+  `(7)JSONP(当我们通过script标签请求时,后台就会根据相应的参数(json,handleResponse)来生成相应的json数据(handleResponse({"data": "zhe"})), 最后这个返回的json数据(代码)就会被放在当前js文件中被执行, 至此跨域通信完成); `   
   `(8)Web sockets(在一个单独的持久连接上提供全双工、双向通信(同源策略对web sockets不适用)) `
+  `2)JSON数据格式: <http://www.cnblogs.com/SkySoot/archive/2012/04/17/2453010.html>  `   
 * 5.实现多线程的两种方式(继承Thred类, 实现Runable接口)
 * 6.Timer线程每隔5秒向Worker线程发送一次消息.(没用过多线程,没写出来，就知道notiy())
 * 7.有没有想问面试官的？
