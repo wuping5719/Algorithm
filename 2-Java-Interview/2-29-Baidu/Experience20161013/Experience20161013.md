@@ -66,3 +66,7 @@
   `《剑指Offer》——面试题17：合并两个排序的链表`
 * 5.Linux命令.  
   `Linux命令大全: ` <http://www.runoob.com/linux/linux-command-manual.html> 
+
+<Strong>同学B的面经：</Strong>
+* 1.最长非递减子串(动态规划问题)
+* 2.m*n矩阵，只能向下或向右走，从左上角走到右下角有多少种走？(动态规划问题)
