@@ -61,7 +61,7 @@
   ` 443/tcp HTTPS used for securely transferring web pages  `
   
   ` 69/udp TFTP Trivial File Transfer Protocol   `    
-* 3.讲讲HashMap. <http://blog.csdn.net/vking_wang/article/details/14166593> 
+* 3.讲讲HashMap: <http://blog.csdn.net/vking_wang/article/details/14166593> 
 * 4.两个列表合成一个列表, 顺序不变.(代码)   
   `《剑指Offer》——面试题17：合并两个排序的链表`
 * 5.Linux命令.  
