@@ -45,3 +45,18 @@
   `(5) spring-dao.jar; (6) spring-hibernate.jar; (7) spring-jdbc.jar; (8) spring-orm.jar; `   
   `(9) spring-remoting.jar; (10) spring-support.jar; (13) spring-web.jar; (14) spring-webmvc.jar;  `  
   `(15) spring-mock.jar. `
+* 2.Tcp和Udp应用层分别有哪些协议.   
+  ` 斜线前面的数字代表端口号，斜线后面表示tcp和udp，最后是协议名称.   
+   21/tcp FTP 文件传输协议.   
+   22/tcp SSH 安全登录、文件传送(SCP)和端口重定向.    
+   23/tcp Telnet 不安全的文本传送.   
+   25/tcp SMTP Simple Mail Transfer Protocol (E-mail)   
+   69/udp TFTP Trivial File Transfer Protocol   
+   79/tcp finger Finger   
+   80/tcp HTTP 超文本传送协议(WWW)   
+   88/tcp Kerberos Authenticating agent    
+   110/tcp POP3 Post Office Protocol (E-mail)      
+   113/tcp ident old identification server system   
+   119/tcp NNTP used for usenet newsgroups   
+   220/tcp IMAP3    
+   443/tcp HTTPS used for securely transferring web pages  `
