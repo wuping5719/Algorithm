@@ -29,4 +29,6 @@
   `  Java构造和解析Json数据的两种方法详解一: ` <http://www.cnblogs.com/lanxuezaipiao/archive/2013/05/23/3096001.html>  
 * 5.实现多线程的两种方式(继承Thred类, 实现Runable接口)
 * 6.Timer线程每隔5秒向Worker线程发送一次消息.(没用过多线程,没写出来，就知道notiy())
+  ` 这个暂时没找到答案，等看完《Thinking in java》并发那章再说吧. `  
+  ` Android主线程和子线程之间的消息传递: ` <http://www.cnblogs.com/jackhuclan/archive/2013/07/10/3182084.html>  
 * 7.有没有想问面试官的？
