@@ -38,3 +38,10 @@
   `(4)同时, 开始结合操作系统概念进一步理解;  `   
   `(5)研究一些流行并发框架的源代码. `
 * 7.有没有想问面试官的？
+
+<Strong>同学A的面经：<Strong>
+* 1.Spring常用的jar包.  
+  `(1) spring-core.jar; (2) spring-beans.jar; (3) spring-aop.jar; (4) spring-context.jar; `
+  `(5) spring-dao.jar; (6) spring-hibernate.jar; (7) spring-jdbc.jar; (8) spring-orm.jar; `
+  `(9) spring-remoting.jar; (10) spring-support.jar; (13) spring-web.jar; (14) spring-webmvc.jar;  `
+  `(15) spring-mock.jar. `
