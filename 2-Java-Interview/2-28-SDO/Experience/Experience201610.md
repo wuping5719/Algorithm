@@ -13,6 +13,7 @@
 * 8. Java虚拟机结构(方法区，堆，Java栈，PC寄存器，本地方法栈).  <http://www.open-open.com/lib/view/open1412594658781.html> 
 * 9. 堆(heap)栈(stack)的区别？ <http://www.cnblogs.com/wp5719/p/5778047.html> 
 * 10. 多线程的基本知识点. 
+* 11. 面向对象3种特性.
 
 <Strong>二面技术面</Strong>    
   一面面完后, 第二天收到一个电话，商量二面时间，在济南参加百度面试，调到了第二天上午.
