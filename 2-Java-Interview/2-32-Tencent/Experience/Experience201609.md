@@ -8,5 +8,5 @@
 * 5. 一亿个整数里(有重复), 取最大的前100个.(典型的大数据处理问题：基本思路是先Hash, 再用大顶堆取前100个最大值)
 * 6. 数据库优化.      
  `数据库访问性能优化: `  <http://www.cnblogs.com/easypass/archive/2010/12/08/1900127.html>    
- `MySQL数据库优化总结: `  <http://www.cnblogs.com/villion/archive/2009/07/23/1893765.html>
+ `MySQL数据库优化总结: `  <http://www.cnblogs.com/villion/archive/2009/07/23/1893765.html>   
  感觉面试官对Java不是很熟，问的也很少，不过初次面BAT级别的大厂,答的挺烂的.
