@@ -25,7 +25,7 @@
   `(2)ActiveMQ介绍： ` <http://www.cnblogs.com/wp5719/p/5529954.html> 
 * 8. Redis用过没有？   
   `Redis: ` <http://www.redis.cn/> 
-* 9. 经常上哪些网站？(跟面试官说关注京东的老大的技术博客)
+* 9. 经常上哪些网站？(跟面试官说关注京东老大的技术博客)
 * 10. 有没有想问他的？
 
 <Strong>三面HR面</Strong>
