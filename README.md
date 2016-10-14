@@ -61,13 +61,13 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">4.华为机试(HuaWei-OJ)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">4.华为(HuaWei-OJ)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE">5.中兴机试(ZTE)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE">5.中兴(ZTE)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-18-Inspur">6.浪潮机试(Inspur)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-18-Inspur">6.浪潮(Inspur)</a>
      </td>
    </tr>
    <tr>
