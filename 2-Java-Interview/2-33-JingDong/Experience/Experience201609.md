@@ -19,9 +19,14 @@
 * 3. 画了一下Dubbo的结构图，京东用Dubbo比较多.
 * 4. Linux常用命令.
 * 5. 前端相关知识, 动态云的设计, 讲了讲百度的ECharts人口迁徙图(简历里有些前端的东西).
-* 6. 数据库基本知识.     
-* 7. 经常上哪些网站？(跟面试官说关注京东的老大的技术博客)
-* 8. 有没有想问他的？
+* 6. 数据库基本知识. 
+* 7. 消息中间件(Kafka、RabbitMQ、ActiveMQ)   
+  `(1)Kafka、RabbitMQ、RocketMQ消息中间件的对比—消息发送性能: `  <http://jm.taobao.org/2016/04/01/kafka-vs-rabbitmq-vs-rocketmq-message-send-performance/>     
+  `(2)ActiveMQ介绍： ` <http://www.cnblogs.com/wp5719/p/5529954.html> 
+* 8. Redis用过没有？   
+  `Redis: ` <http://www.redis.cn/> 
+* 9. 经常上哪些网站？(跟面试官说关注京东的老大的技术博客)
+* 10. 有没有想问他的？
 
 <Strong>三面HR面</Strong>
   HR面试是电话面的，那时已经回青.
