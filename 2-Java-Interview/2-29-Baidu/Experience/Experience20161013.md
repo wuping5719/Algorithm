@@ -37,30 +37,30 @@
   `(3)研究JSR133，同时实践;  `   
   `(4)同时, 开始结合操作系统概念进一步理解;  `   
   `(5)研究一些流行并发框架的源代码. `
-* 7.如何判断查询时是否命中索引？
-  `查看是否使用了索引：explain命令查看`  
+* 7.如何判断查询时是否命中索引？   
+ `查看是否使用了索引：explain命令查看`  
   `1)explain是确定一个查询如何走索引的最简便有效的方法；`  
   `2)关注的字段值：`
-  `(1)id字段：表示查询中执行select子句或操作表的顺序. `   
-  ` id如果相同，可以认为是一组，从上往下顺序执行；在所有组中， id值越大，优先级越高，越先执行。  `
-  `(2)type字段：查询access的方式；  ` 
-  `type=all表示全表扫描数据，不走索引； `  
-  `type=index表示full index scan，和all的区别是index类型只遍历索引树。 ` 
-  `(3)key字段：本次查询最终选择使用哪个索引，NULL表示未使用索引；  `
-  `(4)key_len字段：选择的索引使用的前缀长度或者整个长度（判断联合索引的使用情况）；  `
-  `(5)rows字段：可以理解为查询逻辑读，需要扫描过的记录行数；  `
-  `(6)extra字段：额外信息，主要指的fetch data的具体方式；  `
-  `extra=using tmporary表示mysql需要使用临时表来存储结果集，常见于排序和分组查询。 ` 
-  `extra=using filesort表示文件排序，需要对其优化。mysql中无法利用索引完成的排序操作称为“文件排序”。  `
-   `using tmporary可能是内存临时表也可能是磁盘临时表，如果临时表大小超过tmp_table_size大小才会产生基于磁盘的临时表，也就是说，只是通过explain执行计划是无法查看是否用来磁盘临时表的，如果show processlist查看的线程有“Created_tmp_disk_tables”关键字才能代表是用使用了磁盘临时表. `
- `3)explain的一些使用建议： `
-  `(1)对不确定执行计划的关键语句上线前务必explain；  `
-  `(2)type为all的要格外注意，避免全表扫描；  `
-  `(3)key_len只能用很少一部分前缀的，要注意索引字段顺序等；  `
-  `(4)extra里看到using filesort和using tmporary都要尽量优化，这两种fetch方式不应该出现在任何执行频繁的关键语句中。  `
- `4) 强制使用索引hint： `
-  `select * from table_1 force index(xxx)…  `
-  `select * from table_1 ignore index(yyy)….  `
+  `(1)id字段：表示查询中执行select子句或操作表的顺序. `     
+  ` id如果相同，可以认为是一组，从上往下顺序执行；在所有组中， id值越大，优先级越高，越先执行。  `   
+  `(2)type字段：查询access的方式；  `   
+  `type=all表示全表扫描数据，不走索引； `    
+  `type=index表示full index scan，和all的区别是index类型只遍历索引树。 `   
+  `(3)key字段：本次查询最终选择使用哪个索引，NULL表示未使用索引；  `   
+  `(4)key_len字段：选择的索引使用的前缀长度或者整个长度（判断联合索引的使用情况）；  `   
+  `(5)rows字段：可以理解为查询逻辑读，需要扫描过的记录行数；  `   
+  `(6)extra字段：额外信息，主要指的fetch data的具体方式；  `   
+  `extra=using tmporary表示mysql需要使用临时表来存储结果集，常见于排序和分组查询。 `    
+  `extra=using filesort表示文件排序，需要对其优化。mysql中无法利用索引完成的排序操作称为“文件排序”。  ` 
+  `using tmporary可能是内存临时表也可能是磁盘临时表，如果临时表大小超过tmp_table_size大小才会产生基于磁盘的临时表，也就是说，只是通过explain执行计划是无法查看是否用来磁盘临时表的，如果show processlist查看的线程有“Created_tmp_disk_tables”关键字才能代表是用使用了磁盘临时表. `    
+  `3)explain的一些使用建议： `    
+  `(1)对不确定执行计划的关键语句上线前务必explain；  `    
+  `(2)type为all的要格外注意，避免全表扫描；  `   
+  `(3)key_len只能用很少一部分前缀的，要注意索引字段顺序等；  `    
+  `(4)extra里看到using filesort和using tmporary都要尽量优化，这两种fetch方式不应该出现在任何执行频繁的关键语句中。  `   
+  `4)强制使用索引hint： `   
+  `select * from table_1 force index(xxx)…  `   
+  `select * from table_1 ignore index(yyy)….  `  
   `默认情况下，建议使用mysql优化器，不要强制所用或忽略索引.   `
 * 8.有没有想问面试官的？
 
