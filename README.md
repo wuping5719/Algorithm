@@ -116,7 +116,7 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-33-JingDong">19.京东(JingDong)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-33-JingDong">19.京东(JingDong)</a>
      </td>
      <td></td>
      <td></td>
