@@ -119,7 +119,7 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-33-JingDong">19.京东(JingDong)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-34-Qunar">20.去哪儿(Qunar)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-34-Qunar">20.去哪儿(Qunar)</a>
      </td>
      <td></td>
    </tr>
