@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @version 2016年10月15日 下午6:53:43
  */
 
-public class NextElement_70 {
+public class NextElementI_70 {
 
     public static int[] findNext(int[] A, int n) {
         int[] result = new int[n];
@@ -35,6 +35,11 @@ public class NextElement_70 {
 		A[i] = cin.nextInt();
 	    }
 	    
+	    int[] result = findNext(A, n);
+	    for(int i=0; i<n; i++) {
+		System.out.print(result[i] + " ");
+	    }
+	    System.out.println();
 	}
 	cin.close();
 
