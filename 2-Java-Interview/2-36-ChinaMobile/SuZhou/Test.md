@@ -41,7 +41,7 @@
    ` 可知是管192.168.0.1/24借了四位主机位来表示网络，剩下四位是表示主机数.  `  
    ` 所以2的四次方=16.  192.168.0.1/24 使用掩码255.255.255.240划分子网，其可使用子网为（16）个，每个子网可用主机地址数（16）个.  `
    
-* 4.单例模式.
+* 4.单例模式.(输出：1,0)
   ```java  
   public class SingletonTest {
      public static void main(String[] args) {
@@ -64,6 +64,25 @@
 
      public static Singleton getSingleton() {
         return singleton;
+     }
+  }
+ ```
+
+* 5.String常量和char[]数组(传值和传引用). (输出：good and gbc)
+ ```java  
+  public class ExChangeTest {
+     String str = new String("good");
+     char[] ch = {'a', 'b', 'c'};
+     public static void main(String args[]) {
+	       ExChangeTest ex = new ExChangeTest();
+        ex.change(ex.str, ex.ch);
+        System.out.print(ex.str + " and ");  //good and 
+        System.out.print(ex.ch);  //gbc 
+     }
+
+     public void change(String str, char ch[]) {
+        str = "test ok";
+        ch[0] = 'g';
      }
   }
  ```
