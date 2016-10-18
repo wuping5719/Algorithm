@@ -176,3 +176,33 @@
      }
   }
   ```
+
+* 10.类构造函数的执行顺序.(输出：staticA  staticB  not-staticA  HelloA  not-staticB  HelloB)
+  ```java
+  class HelloA {
+    {
+        System.out.println("not-staticA");  //3: 执行父类的默认构造函数
+    }
+    static {
+        System.out.println("staticA");      //1: 执行父类的静态构造函数
+    }
+    public HelloA() {
+        System.out.println("HelloA");       //4: 执行父类的构造函数
+    }
+  }
+
+  public class HelloB extends HelloA {
+    { 
+        System.out.println("not-staticB");   //5: 执行子类的默认构造函数
+    }
+    static {
+        System.out.println("staticB");     //2: 执行子类的静态构造函数
+    }
+    public Spock() {
+        System.out.println("HelloB");      //6: 执行子类的构造函数
+    }
+    public static void main(String[] args) {
+        new HelloB();
+    }
+  }
+  ```
