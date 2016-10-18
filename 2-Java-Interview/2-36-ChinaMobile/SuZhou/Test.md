@@ -86,3 +86,25 @@
      }
   }
  ```
+ 
+ * 6.try,catch,finally结构中return返回值问题. 
+   (1) catch,finally中都有return语句，最后返回finally中的return结果(输出：2).
+  ```java  
+   public class Spock {
+      public static void main(String[] args) {
+        System.out.println(new Spock().test());
+      }
+
+      private int test() {
+	 int a = 1;
+         int b;
+         try {
+            b = a / 0;
+         } catch (Exception e) {
+            return 1;
+         } finally {
+            return 2;   //不管是否发生异常，finally一定会执行，最后输出2
+         }
+      }
+   }
+   ```
