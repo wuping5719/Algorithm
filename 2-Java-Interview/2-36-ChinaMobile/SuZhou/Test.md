@@ -35,7 +35,36 @@
        }
   }
   ```
+  
 * 3.192.168.0.1/24 使用掩码255.255.255.240划分子网，其可使用子网为（16）个，每个子网可用主机地址数（16）个.   
   &nbsp;&nbsp; ` 先将240转换为二进制是1111 0000，根据子网掩码255.255.255.240 `   
    ` 可知是管192.168.0.1/24借了四位主机位来表示网络，剩下四位是表示主机数.  `  
    ` 所以2的四次方=16.  192.168.0.1/24 使用掩码255.255.255.240划分子网，其可使用子网为（16）个，每个子网可用主机地址数（16）个.  `
+   
+* 4.单例模式.
+  ```java  
+public class SingletonTest {
+    public static void main(String[] args) {
+        Singleton s = Singleton.getSingleton();
+        System.out.print(s.counter1);  // 1
+        System.out.print(",");
+        System.out.print(s.counter2);  // 0
+    }
+
+}
+
+class Singleton {
+    private static Singleton singleton = new Singleton();
+    public static int counter1;
+    public static int counter2 = 0;
+
+    public Singleton() {
+        counter1++;
+        counter2++;
+    }
+
+    public static Singleton getSingleton() {
+        return singleton;
+    }
+}
+ ```
