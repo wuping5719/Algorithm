@@ -43,28 +43,27 @@
    
 * 4.单例模式.
   ```java  
-public class SingletonTest {
-    public static void main(String[] args) {
+  public class SingletonTest {
+     public static void main(String[] args) {
         Singleton s = Singleton.getSingleton();
         System.out.print(s.counter1);  // 1
         System.out.print(",");
         System.out.print(s.counter2);  // 0
-    }
+     }
+  }
 
-}
+  class Singleton {
+     private static Singleton singleton = new Singleton();
+     public static int counter1;
+     public static int counter2 = 0;
 
-class Singleton {
-    private static Singleton singleton = new Singleton();
-    public static int counter1;
-    public static int counter2 = 0;
-
-    public Singleton() {
+     public Singleton() {
         counter1++;
         counter2++;
-    }
+     }
 
-    public static Singleton getSingleton() {
+     public static Singleton getSingleton() {
         return singleton;
-    }
-}
+     }
+  }
  ```
