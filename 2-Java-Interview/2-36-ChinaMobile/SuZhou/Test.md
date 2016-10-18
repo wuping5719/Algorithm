@@ -144,3 +144,21 @@
       }
    }
    ```
+
+* 8.静态局部变量.
+ ```java 
+  public class StaticLocalVariable{
+     public int increase() {
+         static int i = 0;  //此处报错，静态变量附属于类, 方法内不能有静态局部变量, 将static关键字去掉
+         i++;
+         return i;
+     }
+    
+     public static void main(String args[]) {
+	StaticLocalVariable test = new StaticLocalVariable();
+        test.increase();
+        int j = test.increase();
+        System.out.println(j);
+     }
+  }
+ ```
