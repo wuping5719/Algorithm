@@ -162,3 +162,17 @@
      }
   }
  ```
+
+* 9.布尔变量.(输出：true)
+  ```java 
+  public class BooleanTest {
+     public static void main(String args[]) {
+	 Boolean flag = false;
+	 if (flag = true) {   //此处为赋值号，相当于给flag赋值true
+	    System.out.println("true");
+	 } else {
+	    System.out.println("false");
+	 }
+     }
+  }
+  ```
