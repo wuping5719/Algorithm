@@ -177,7 +177,7 @@
   }
   ```
 
-* 10.类构造函数的执行顺序.(输出：staticA  staticB  not-staticA  HelloA  not-staticB  HelloB)
+* 10.类构造函数的执行顺序.(输出：staticA   staticB   not-staticA   HelloA   not-staticB   HelloB)
   ```java
   class HelloA {
     {
