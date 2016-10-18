@@ -206,3 +206,21 @@
     }
   }
   ```
+
+* 11.引用类型比较.(无输出)
+  ```java
+  public class TestLong {
+    public static void main(String[] args) {
+        Long tail = 2000L;
+        Long distance = 1999L;
+        Long story = 1000L;
+	// ==运算符和equals()方法的区别
+        if((tail > distance) ^ ((story * 2) == tail)) {   //==比较引用类型时注意: 即使数值相同，也不一定相等，地址可能不一样
+            System.out.print("1");
+        }
+        if((distance + 1 != tail) ^ ((story * 2) == distance)) {
+            System.out.print("2");
+        }
+    }
+  }
+  ```
