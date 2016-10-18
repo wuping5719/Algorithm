@@ -225,3 +225,21 @@
     }
   }
   ```
+
+* 12.线程的执行顺序.(ChinaMobileHello)
+  ```java
+   public class Spock {
+      public static synchronized void main(String[] a) {
+         Thread t = new Thread() {
+            public void run() {
+                ChinaMobile();
+            }
+         };
+         t.run();
+         System.out.print("Hello");
+      }
+      static synchronized void ChinaMobile() {
+         System.out.print("ChinaMobile");   
+      }
+   }
+  ```
