@@ -9,12 +9,14 @@
   &nbsp; ` (1) Java 栈 StackOverflowError： `     
   &nbsp; ` JVM的运行时数据区中有一个叫做"虚拟机栈"的内存区域, 此区域的作用是: 每个方法在执行时都会创建一个栈帧, 用于存储局部变量表, 操作数栈, 方法出口等信息.因此我们可以创建一个无限递归的递归调用, 当递归深度过大时, 就会耗尽栈空间, 进而导致了StackOverflowError异常. `     
   &nbsp; ` 示例代码: `    
-  ` public class OutOfMemoryErrorTest { 
+  ```java  
+  public class OutOfMemoryErrorTest { 
        public static void main (String [] srgs) {
           stackOutOfMemoryError(1);
        }
+       
        public static void stackOutOfMemoryError(int depth) {
           depth++;
           stackOutOfMemoryError(depth);
        }
-  } `
+  } ```
