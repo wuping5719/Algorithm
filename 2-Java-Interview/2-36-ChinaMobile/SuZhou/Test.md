@@ -55,7 +55,7 @@
   class Singleton {
      private static Singleton singleton = new Singleton();
      public static int counter1;
-     public static int counter2 = 0;
+     public static int counter2 = 0;  //静态变量赋默认值
 
      public Singleton() {
         counter1++;
