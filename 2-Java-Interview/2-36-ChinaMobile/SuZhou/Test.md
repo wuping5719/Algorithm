@@ -131,7 +131,7 @@
    public class Son extends Father {
       private String name = "son";
       public static void main(String[] args) {
-	 Son son = new Son();
+         Son son = new Son();
          System.out.print(son.getName());  //执行父类方法，输出父类私有变量的值
          // String s;  
          // System.out.println("s=" + s);  //此处报错，s未初始化
