@@ -87,8 +87,8 @@
   }
  ```
  
- * 6.try,catch,finally结构中return返回值问题. 
-   (1) catch,finally中都有return语句，最后返回finally中的return结果(输出：2).
+* 6.try,catch,finally结构中return返回值问题. 
+  (1) catch,finally中都有return语句，最后返回finally中的return结果(输出：2).
   ```java  
    public class CatchFinallyTest1 {
       public static void main(String[] args) {
