@@ -96,7 +96,7 @@
       }
 
       private int test() {
-	 int a = 1;
+	  int a = 1;
          int b;
          try {
             b = a / 0;
