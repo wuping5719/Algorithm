@@ -155,7 +155,7 @@
      }
     
      public static void main(String args[]) {
-	StaticLocalVariable test = new StaticLocalVariable();
+        StaticLocalVariable test = new StaticLocalVariable();
         test.increase();
         int j = test.increase();
         System.out.println(j);
