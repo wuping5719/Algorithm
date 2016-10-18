@@ -6,7 +6,7 @@
 * 2.请解释以下两种内存溢出的原因，并写段java代码（伪代码）触发这些异常。   
   &nbsp;&nbsp;  java.lang.StackOverflowError.  
   &nbsp;&nbsp;  java.lang.OutOfMemoryError.    
-  &nbsp; ` (1) Java 栈 StackOverflowError： `     
+  &nbsp; ` (1) Java栈StackOverflowError： `     
   &nbsp; ` JVM的运行时数据区中有一个叫做"虚拟机栈"的内存区域, 此区域的作用是: 每个方法在执行时都会创建一个栈帧, 用于存储局部变量表, 操作数栈, 方法出口等信息.因此我们可以创建一个无限递归的递归调用, 当递归深度过大时, 就会耗尽栈空间, 进而导致了StackOverflowError异常. `     
   &nbsp; ` 示例代码: `
   ```java  
@@ -20,4 +20,18 @@
           stackOutOfMemoryError(depth);
        }
   } 
+  ```
+  &nbsp; ` (2) Java堆OutOfMemoryError:  `     
+  &nbsp; ` Java堆是用来存储对象实例的, 因此如果我们不断地创建对象, 并且保证GC Root和创建的对象之间有可达路径以免对象被垃圾回收, 那么当创建的对象过多时, 会导致heap内存不足, 进而引发OutOfMemoryError异常.`     
+  &nbsp; ` 示例代码: `
+  ```java  
+  public class OutOfMemoryErrorTest {
+       public static void main (String[] args) {
+            List<Integer> list = new ArryList<>();
+            int i=0;
+            while(true) {
+               list.add(i++);
+            }
+       }
+  }
   ```
