@@ -1,7 +1,6 @@
 # Algorithm
   This project is mainly to explain some of the algorithm program.   
-  The algorithm derived from the 《Sword Offer》（剑指Offer）, 
-    《The beauty of programming》（编程之美）.  
+  The algorithm derived from the 《Sword Offer》（剑指Offer）, 《The beauty of programming》（编程之美）, 《Cracking Coding Interview》(程序员面试金典).  
     
   <h2><a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/01-Sword-Offer.md">
    1.剑指Offer(Sword-Offer)</a></h2>
