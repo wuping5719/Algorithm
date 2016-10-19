@@ -20,12 +20,10 @@
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    
 **# (6)String对象比较(StringEqualTest)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-6-StringEqualTest.java" 
-   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/2-ObjectConstructor.java">Open URL</a> 
    
 **# (7)Integer对象-装箱和拆箱(IntegerPackingTest)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-7-IntegerPackingTest.java" 
-   target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/6-IntegerPackingTest.java">Open URL</a> 
    
 **# (8)扑克牌-静态嵌套类(Static Nested Class)和内部类(Inner Class):(Poker)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-8-Poker" 
@@ -39,14 +37,14 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-10-ObjectConstructor.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    
 **# (11)异常类:(ExceptionTest)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-11-ExceptionTest.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/3-ExceptionTest.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
   
 **# (12)TreeSet & TreeMap**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-12-TreeSet" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>&nbsp;&nbsp;
   <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-13-TreeMap"  style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
   
 **# (13)Java枚举类型:(Enum)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-15-EnumOne.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/4-EnumOne.java" >Open URL</a> 
   
 **# (14)华为机试:(OJ)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
