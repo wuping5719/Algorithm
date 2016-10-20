@@ -124,7 +124,7 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-3-YiDao">25.易到(YiDao)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-3-YiDao">25.易到(YiDao)</a>
      </td>
      <td></td>
      <td></td>
