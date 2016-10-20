@@ -131,10 +131,12 @@
    </tr>
  </table>
 
- <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
+  <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
    4.程序员面试金典(CrackingCodingInterview)</a></h2>
 
-  <h2>5.C&C++面试(C-And-CPlusPlus-Interview)</h2>
+  <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>
+   
+  <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
   **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
@@ -155,6 +157,6 @@
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" 
    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
 
-  <h2>6.C#.Net</h2>
+  <h2>7.C#.Net</h2>
   **# (1)程序运行时间和语义理解:(TimeAndProgram)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/4-.NET/4-1-TimeAndProgram" target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
