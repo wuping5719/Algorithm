@@ -15,9 +15,9 @@
 		  for (int k = j; k < num; k++) {
 		      if((i * i + j * j) == k * k)
 		          System.out.println("勾：" + i + " 股：" + j + " 玄：" + k);
-		  }
-	     }
-	 }
+                  }
+             }
+        }
      }
   }
   ```
