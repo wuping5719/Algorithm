@@ -119,7 +119,7 @@
  <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-37-PhoenixNet/Test.md">23.凤凰网(PhoenixNet)</a>
      </td>
      <td>
-      <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-2-Tuniu/Test.md">24.途牛(Tuniu)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-2-Tuniu/Test.md">24.途牛(Tuniu)</a>
      </td>
    </tr>
  </table>
