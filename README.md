@@ -122,6 +122,13 @@
        <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-2-Tuniu/Test.md">24.途牛(Tuniu)</a>
      </td>
    </tr>
+   <tr>
+     <td>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-3-YiDao">25.易到(YiDao)</a>
+     </td>
+     <td></td>
+     <td></td>
+   </tr>
  </table>
 
  <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
