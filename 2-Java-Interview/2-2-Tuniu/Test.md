@@ -9,16 +9,15 @@
   public class PythagoreanTheorem {
     //显示200以内所有整数的勾股定理组合
     private static final long num = 200;
-    
     public static void main(String[] args) {
-	 for (int i = 1; i < num; i++) {
+        for (int i = 1; i < num; i++) {
 	     for (int j = i; j < num; j++) {
 		  for (int k = j; k < num; k++) {
-		        if((i * i + j * j) == k * k)
-		           System.out.println("勾：" + i + " 股：" + j + " 玄：" + k);
+		      if((i * i + j * j) == k * k)
+		          System.out.println("勾：" + i + " 股：" + j + " 玄：" + k);
 		  }
-	      }
-	  }
+	     }
+	 }
      }
   }
   ```
