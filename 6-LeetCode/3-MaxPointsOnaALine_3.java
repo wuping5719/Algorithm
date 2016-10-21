@@ -76,5 +76,4 @@ public class MaxPointsOnaALine_3 {
 	Point[] points = {point1, point2, point3, point4, point5};
 	System.out.println(maxPoints(points));
     }
-
 }
