@@ -98,5 +98,4 @@ public class EvalRPN_2 {
 	}
 	cin.close();
     }
-
 }
