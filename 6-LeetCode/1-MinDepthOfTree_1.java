@@ -56,5 +56,5 @@ public class MinDepthOfTree_1 {
 	
 	System.out.println(run(root));
     }
-
+	
 }
