@@ -55,5 +55,4 @@ public class SingleNumberII_13 {
 	}
 	cin.close();
     }
-
 }
