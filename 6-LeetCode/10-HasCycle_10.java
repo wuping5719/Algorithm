@@ -37,5 +37,4 @@ public class HasCycle_10 {
 	boolean result = hasCycle(head);;
 	System.out.println(result);
     }
-
 }
