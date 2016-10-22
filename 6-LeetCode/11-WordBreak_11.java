@@ -44,5 +44,4 @@ public class WordBreak_11 {
 	}
 	cin.close();
     }
-
 }
