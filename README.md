@@ -119,7 +119,7 @@
        <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-2-Tuniu/Test.md">23.途牛(Tuniu)</a>
      </td>
      <td>  
-       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-4-Hisense/Experience/Experience201610.md">24.海信网络科技(Hisense)</a>
+      <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-4-Hisense/Experience">24.海信(Hisense)</a>
      </td>
    </tr>
    <tr>
