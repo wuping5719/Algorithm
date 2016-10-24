@@ -15,6 +15,7 @@
 * 5. Struts2和SpringMVC的优劣对比.
 * 6. Struts2的原理.
 * 7. StringBuilder的底层实现原理.
+* 8. 有没写过地图相关的代码？
 
 <Strong>三面HR面(电话)</Strong>    
 * 1. 问签约没？说了一下大概的签约时间.
