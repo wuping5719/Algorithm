@@ -10,7 +10,7 @@
    (3) @Documented,   
    (4) @Inherited.    
    这些类型和它们所支持的类在java.lang.annotation包中可以找到。  
-  2)示例：
+  2)示例：   
   ```java 
   @Target(ElementType.FIELD)
   @Retention(RetentionPolicy.RUNTIME)
