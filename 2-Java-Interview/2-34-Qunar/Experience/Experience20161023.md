@@ -11,7 +11,7 @@
    (4) @Inherited.    
    这些类型和它们所支持的类在java.lang.annotation包中可以找到。  
   2)示例：   
- ```java
+```java
   @Target(ElementType.FIELD)
   @Retention(RetentionPolicy.RUNTIME)
   @Documented
@@ -21,4 +21,4 @@
      public String getFuncName() default "getField"; 
      public boolean defaultDBValue() default false;
   }
- ```
+```
