@@ -14,7 +14,7 @@
   `(1) 快慢指针法：用两个指针：pSlow，pFast，一个慢一个快；慢的一次跳一步，快的一次跳两步，往链表末端移动。如果pFast==NULL，则说明链表没有环，如果pSlow==pFast，则说明链表存在环。`
   `(2) 分别从头指针、环入口开始走，相遇的那个点就是环入口(尾节点).`
 * 7.写sql语句建个表:包含学生学号、姓名、性别、入学时间.   
-  ```
+```sql
   CREATE TABLE Student 
   (  
      Sno CHAR(9) PRIMARY KEY,  //列级完整性约束，Sno是主码
@@ -22,16 +22,16 @@
      Ssex CHAR(2),
      S_entrance DATE
   ); 
-  ```
+```
 * 8.写sql语句查询最新入学的五位女生.   
-   ```
+```sql
    SELECT TOP 5 * FROM Student 
      WHERE Ssex='女' ORDER BY S_entrance DESC;
-  ```
+```
 * 9.写sql语句删除所有学生信息.   
-   ```
+```sql
     DELETE FROM Student;
-   ```
+```
 * 10.drop和delete的区别.    
  `SQL truncate、delete与drop的区别: `    
  `1)相同点： `   
@@ -51,7 +51,7 @@
 * 11.你觉得你比较适合测试工作的特质是什么?  
 * 12.我们的产品你觉得最值得吐槽点是什么? 
 * 13.输入两个表示年月日时间的字符串，计算这两个时间相差多少天?   
-   ```java
+```java
    import java.util.*;
    public class Test {
       public void dateDiff(String startTime, String endTime, String format) {
@@ -67,7 +67,7 @@
          }
       }
     }
-    ```
+```
 * 14.linux指令怎么查询一个字符串在哪个文档中出现过? 
   ` find .|xargs grep -ri "IBM" -l `     <https://zhidao.baidu.com/question/305494384200177364.html>
 * 15.你了解的linux指令有哪些?     
@@ -93,7 +93,7 @@
   <http://blog.csdn.net/sicofield/article/details/8850269>
 * 5.他建了两表：一个是课程表，一个是学生表，让我用sql语句建个学生选课表。
    数据库的题，详见高教版《数据库系统概论(第4版)》(王珊，萨师煊) P85。
-   ```
+```sql
    CREATE TABLE SC
    (
      Sno CHAR(9),
@@ -103,9 +103,9 @@
      FOREIGN KEY (Sno) REFERENCES Student(Sno),
      FOREIGN KEY (Cno) REFERENCES Course(Cno)
    );
-   ```
+```
 * 6.查询每个课程对应的选课人数，我问没人选的需要显示吗，他说不用。他又问我：如果需要显示呢? 还具体问了问group by count是什么意思?
-   ```
+```sql
    SELECT Cno,COUNT(Sno)
    FROM SC
    GROUP BY Cno;
@@ -114,7 +114,7 @@
     SELECT SC2.Cno as level, COUNT(case when Sno is not null then 1 end) as count
     FROM SC2 LEFT JOIN SC1 ON SC2.Cno = SC1.level
     GROUP BY SC2.Cno;
-   ```
+```
    group by子句将查询结果按某一列或多列的值分组，值相等的为一组.     
    高教版《数据库系统概论(第4版)》(王珊，萨师煊) P99。
 * 7.linux服务器某个进程占用了太多系统资源，导致其他进程运行缓慢，怎么办? 我回答要把这个进程挂起，他问我怎么办?
