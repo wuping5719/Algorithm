@@ -14,7 +14,7 @@
   `(1) 快慢指针法：用两个指针：pSlow，pFast，一个慢一个快；慢的一次跳一步，快的一次跳两步，往链表末端移动。如果pFast==NULL，则说明链表没有环，如果pSlow==pFast，则说明链表存在环。`
   `(2) 分别从头指针、环入口开始走，相遇的那个点就是环入口(尾节点).`
 * 7.写sql语句建个表:包含学生学号、姓名、性别、入学时间.   
-  ```sql
+  ```
   CREATE TABLE Student 
   (  
      Sno CHAR(9) PRIMARY KEY,  //列级完整性约束，Sno是主码
@@ -24,12 +24,12 @@
   ); 
   ```
 * 8.写sql语句查询最新入学的五位女生.   
-   ```sql
+   ```
    SELECT TOP 5 * FROM Student 
      WHERE Ssex='女' ORDER BY S_entrance DESC;
   ```
 * 9.写sql语句删除所有学生信息.   
-   ```sql
+   ```
     DELETE FROM Student;
    ```
 * 10.drop和delete的区别.    
@@ -93,7 +93,7 @@
   <http://blog.csdn.net/sicofield/article/details/8850269>
 * 5.他建了两表：一个是课程表，一个是学生表，让我用sql语句建个学生选课表。
    数据库的题，详见高教版《数据库系统概论(第4版)》(王珊，萨师煊) P85。
-   ```sql
+   ```
    CREATE TABLE SC
    (
      Sno CHAR(9),
@@ -105,7 +105,7 @@
    );
    ```
 * 6.查询每个课程对应的选课人数，我问没人选的需要显示吗，他说不用。他又问我：如果需要显示呢? 还具体问了问group by count是什么意思?
-   ```sql
+   ```
    SELECT Cno,COUNT(Sno)
    FROM SC
    GROUP BY Cno;
