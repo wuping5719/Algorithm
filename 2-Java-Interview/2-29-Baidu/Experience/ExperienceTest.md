@@ -14,8 +14,24 @@
   `(1) 快慢指针法：用两个指针：pSlow，pFast，一个慢一个快；慢的一次跳一步，快的一次跳两步，往链表末端移动。如果pFast==NULL，则说明链表没有环，如果pSlow==pFast，则说明链表存在环。`
   `(2) 分别从头指针、环入口开始走，相遇的那个点就是环入口(尾节点).`
 * 7.写sql语句建个表:包含学生学号、姓名、性别、入学时间.   
+  ```sql
+  CREATE TABLE Student 
+  (  
+     Sno CHAR(9) PRIMARY KEY,  //列级完整性约束，Sno是主码
+     Sname CHAR(20) UNIQUE,    //Sname取唯一值
+     Ssex CHAR(2),
+     S_entrance DATE
+  ); 
+  ```
 * 8.写sql语句查询最新入学的五位女生.   
+   ```sql
+   SELECT TOP 5 * FROM Student 
+     WHERE Ssex='女' ORDER BY S_entrance DESC;
+  ```
 * 9.写sql语句删除所有学生信息.   
+   ```sql
+    DELETE FROM Student;
+   ```
 * 10.drop和delete的区别.    
  `SQL truncate、delete与drop的区别: `    
  `1)相同点： `   
@@ -35,8 +51,27 @@
 * 11.你觉得你比较适合测试工作的特质是什么?  
 * 12.我们的产品你觉得最值得吐槽点是什么? 
 * 13.输入两个表示年月日时间的字符串，计算这两个时间相差多少天?   
-* 14.linux指令怎么查询一个字符串在哪个文档中出现过?   
-* 15.你了解的linux指令有哪些?   
+   ```java
+   import java.util.*;
+   public class Test {
+      public void dateDiff(String startTime, String endTime, String format) {
+         //SimpleDateFormat
+         SimpleDateFormat sd = new SimpleDateFormat(format);
+         long nd = 1000*24*60*60;  //一天的毫秒数
+         long diff = 0;
+         try {
+           //获得两个时间的毫秒时间差异
+           diff = sd.parse(endTime).getTime() - sd.parse(startTime).getTime();
+           long day = diff/nd; //计算差多少天
+           System.out.println("时间相差："+day+"天.");
+         }
+      }
+    }
+    ```
+* 14.linux指令怎么查询一个字符串在哪个文档中出现过? 
+  ` find .|xargs grep -ri "IBM" -l `     <https://zhidao.baidu.com/question/305494384200177364.html>
+* 15.你了解的linux指令有哪些?     
+    <http://www.weixuehao.com/archives/25>
 * 16.北京这城市这样，你为什么还想来?   
 * 17.你有没有从师姐师兄那儿了解技术工作这么累，为什么还要做?   
 * 18.你觉得百度招的这个开发测试工程师和别的公司招的测试工程师有什么差别?   
@@ -51,17 +86,63 @@
 * 1.简单自我介绍。 
 * 2.我在本科做过心理委员，他问我这个过程中感触最深的一点是什么?   
 * 3.做心理委员期间遇到的最大困难是什么?   
-* 4.单向链表反转。(我想了个办法要用到三个指针) 追问能不能用两个指针，我就问他对空间复杂度有没有要求，他说没有，我说了一种办法。他继续追问，如果对空间复杂度有要求呢，然后还提示了一下改变一下语句顺序试试，然而我还是没想出来。
+* 4.单向链表反转。(我想了个办法要用到三个指针) 追问能不能用两个指针，我就问他对空间复杂度有没有要求，他说没有，我说了一种办法。他继续追问，如果对空间复杂度有要求呢，然后还提示了一下改变一下语句顺序试试，然而我还是没想出来。   
+  方法1：将单链表储存为数组，然后按照数组的索引逆序进行反转。    
+  方法2：使用三个指针遍历单链表，逐个链接点进行反转。    
+  方法3：从第2个节点到第N个节点，依次逐节点插入到第1个节点(head节点)之后，最后将第一个节点挪到新表的表尾。
+  <http://blog.csdn.net/sicofield/article/details/8850269>
 * 5.他建了两表：一个是课程表，一个是学生表，让我用sql语句建个学生选课表。
+   数据库的题，详见高教版《数据库系统概论(第4版)》(王珊，萨师煊) P85。
+   ```sql
+   CREATE TABLE SC
+   (
+     Sno CHAR(9),
+     Cno CHAR(4),
+     Grade SMALLINT,
+     PRIMARY KEY (Sno, Cno),
+     FOREIGN KEY (Sno) REFERENCES Student(Sno),
+     FOREIGN KEY (Cno) REFERENCES Course(Cno)
+   );
+   ```
 * 6.查询每个课程对应的选课人数，我问没人选的需要显示吗，他说不用。他又问我：如果需要显示呢? 还具体问了问group by count是什么意思?
+   ```sql
+   SELECT Cno,COUNT(Sno)
+   FROM SC
+   GROUP BY Cno;
+   ```
+   ```mysql
+    SELECT SC2.Cno as level, COUNT(case when Sno is not null then 1 end) as count
+    FROM SC2 LEFT JOIN SC1 ON SC2.Cno = SC1.level
+    GROUP BY SC2.Cno;
+   ```
+   group by子句将查询结果按某一列或多列的值分组，值相等的为一组.     
+   高教版《数据库系统概论(第4版)》(王珊，萨师煊) P99。
 * 7.linux服务器某个进程占用了太多系统资源，导致其他进程运行缓慢，怎么办? 我回答要把这个进程挂起，他问我怎么办?
+  <http://www.cnblogs.com/panfeng412/archive/2013/12/17/drop-caches-under-linux-system-2.html>
 * 8.linux服务器怎么查磁盘占用率和cpu占用率?
-* 9.怎么把linux集群的某个主机上的文件拷贝到另一台主机上?
+   (1) 查磁盘占用率:  
+   df 命令是一个显示文件系统使用情况状态的命令.   
+   df -h
+   (2) 查cpu占用率:  
+   top命令可以查看CPU、内存利用率.    
+   $ top -u oracle
+* 9.怎么把linux集群的某个主机上的文件拷贝到另一台主机上?  
+  (1) 将远程linux主机上/remote/path的文件copy到本主机的/local/path目录.    
+     scp user@remote.machine:/remote/path  /local/path
+  (2) 将本主机的/local/path目录copy到远程linux主机上/remote/path的文件.   
+     scp /local/path user@remote.machine:/remote/path
 * 10.貌似还问了几个我在海信实习时间的问题? 我想不起来了, 总之理论我记不住都是举例说明的。 
 * 11.从文本中读取大量信息，每行信息包含一个ip，一个url和一个时间，之间用逗号分割，表示这个ip在这个时间对这个url进行了访问。问某个ip访问了哪些url，分别对这些url访问了多少次?   
   我提出了最笨的办法，他问我对哈希有没有了解，我就又用了哈希，我又提到了后缀树，他问我后缀树为什么可以? 为什么快? 他继续追问我还有别的办法吗? 我就想到了hadoop的key_value这个场景是多么合适呀！然后他可能没了解，问我能不能用c++的数据结构来表达，我们俩都没想出好办法就过了这题啦!
+  大数据题。 <>
 * 12.我海信实习期间测了一个类似百度地图的手机应用，他问我怎么保障实时显示的点是准确可靠的? 
 * 13.经纬度的表示用什么数据类型? 我说float。他问我这个类型在计算机里是怎么存储的? 
+   `float即浮点型变量，在计算机内存中占用4字节(Byte), 即32-bit. 遵循IEEE-754格式标准.`  
+　　`一个浮点数由2部分组成：底数m和指数e。`     
+    `表示为： ±mantissa × 2exponent `
+　　`注意，公式中的mantissa和exponent使用二进制表示 `
+　　`底数部分:使用2进制数来表示此浮点数的实际值.底数部分实际是占用24-bit的一个值, 由于其最高位始终为1, 所以最高位省去不存储, 在存储中只有23-bit.`
+　　`指数部分:占用8-bit的二进制数,可表示数值范围为0－255.但是指数应可正可负,所以IEEE规定,此处算出的次方须减去127才是真正的指数.所以float的指数可从-126到128. `
 * 14.你有什么要问我的吗?     
   二面也问了正好一个小时。
 
