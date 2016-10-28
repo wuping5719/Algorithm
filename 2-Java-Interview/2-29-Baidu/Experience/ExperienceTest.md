@@ -16,21 +16,21 @@
 * 7.写sql语句建个表:包含学生学号、姓名、性别、入学时间.   
 * 8.写sql语句查询最新入学的五位女生.   
 * 9.写sql语句删除所有学生信息.   
-* 10.drop和delete的区别.  
- `SQL truncate、delete与drop的区别: `  
- `1)相同点： `
- `(1) truncate和不带where子句的delete、以及drop都会删除表内的数据。 `   
- `(2) drop、truncate都是DDL语句(数据定义语言), 执行后会自动提交。 `
- `2)不同点： `
- `(1) truncate和delete只删除数据, 不删除表的结构(定义). drop语句将删除表的结构被依赖的约束(constrain)、触发器(trigger)、索引(index)；依赖于该表的存储过程/函数将保留, 但是变为invalid 状态。 `   
- `(2) delete语句是数据库操作语言(DML)，这个操作会放到rollback segement中，事务提交之后才生效；如果有相应的trigger，执行的时候将被触发。truncate、drop是数据库定义语言(DDL)，操作立即生效，原数据不放到rollback segment中，不能回滚，操作不触发trigger。`
- `(3) delete语句不影响表所占用的extent，高水线(high watermark)保持原位置不动; drop语句将表所占用的空间全部释放; truncate语句缺省情况下将空间释放到minextents个extent，除非使用reuse storage；truncate会将高水线复位(回到最开始)。`
- `(4) 速度，一般来说: drop > truncate > delete。`  
- `(5) 安全性：小心使用drop和truncate，尤其没有备份的时候。 否则哭都来不及。使用上, 想删除部分数据行用delete，注意带上where子句。回滚段要足够大。想删除表, 当然用drop。想保留表而将所有数据删除，如果和事务无关，用truncate即可。如果和事务有关, 或者想触发trigger,还是用delete。如果是整理表内部的碎片，可以用truncate跟上reuse stroage，再重新导入/插入数据。`
- `(6) delete是DML语句, 不会自动提交。drop/truncate都是DDL语句, 执行后会自动提交。`  
- `(7) TRUNCATE TABLE在功能上与不带WHERE子句的DELETE语句相同：二者均删除表中的全部行。但TRUNCATE TABLE比DELETE速度快，且使用的系统和事务日志资源少。DELETE语句每次删除一行，并在事务日志中为所删除的每行记录一项。TRUNCATE TABLE通过释放存储表数据所用的数据页来删除数据，并且只在事务日志中记录页的释放。 `   
- `(8) TRUNCATE TABLE删除表中的所有行，但表结构及其列、约束、索引等保持不变。新行标识所用的计数值重置为该列的种子。如果想保留标识计数值，请改用DELETE。如果要删除表定义及其数据，请使用DROP TABLE语句。  `  
- `(9) 对于由FOREIGN KEY约束引用的表，不能使用TRUNCATE TABLE，而应使用不带WHERE子句的DELETE语句。由于TRUNCATE TABLE不记录在日志中，所以它不能激活触发器。` 
+* 10.drop和delete的区别.    
+ `SQL truncate、delete与drop的区别: `    
+ `1)相同点： `   
+ `(1) truncate和不带where子句的delete、以及drop都会删除表内的数据。 `     
+ `(2) drop、truncate都是DDL语句(数据定义语言), 执行后会自动提交。 `   
+ `2)不同点： `   
+ `(1) truncate和delete只删除数据, 不删除表的结构(定义). drop语句将删除表的结构被依赖的约束(constrain)、触发器(trigger)、索引(index)；依赖于该表的存储过程/函数将保留, 但是变为invalid 状态。 `    
+ `(2) delete语句是数据库操作语言(DML)，这个操作会放到rollback segement中，事务提交之后才生效；如果有相应的trigger，执行的时候将被触发。truncate、drop是数据库定义语言(DDL)，操作立即生效，原数据不放到rollback segment中，不能回滚，操作不触发trigger。`  
+ `(3) delete语句不影响表所占用的extent，高水线(high watermark)保持原位置不动; drop语句将表所占用的空间全部释放; truncate语句缺省情况下将空间释放到minextents个extent，除非使用reuse storage；truncate会将高水线复位(回到最开始)。`   
+ `(4) 速度，一般来说: drop > truncate > delete。`     
+ `(5) 安全性：小心使用drop和truncate，尤其没有备份的时候。 否则哭都来不及。使用上, 想删除部分数据行用delete，注意带上where子句。回滚段要足够大。想删除表, 当然用drop。想保留表而将所有数据删除，如果和事务无关，用truncate即可。如果和事务有关, 或者想触发trigger,还是用delete。如果是整理表内部的碎片，可以用truncate跟上reuse stroage，再重新导入/插入数据。`   
+ `(6) delete是DML语句, 不会自动提交。drop/truncate都是DDL语句, 执行后会自动提交。`      
+ `(7) TRUNCATE TABLE在功能上与不带WHERE子句的DELETE语句相同：二者均删除表中的全部行。但TRUNCATE TABLE比DELETE速度快，且使用的系统和事务日志资源少。DELETE语句每次删除一行，并在事务日志中为所删除的每行记录一项。TRUNCATE TABLE通过释放存储表数据所用的数据页来删除数据，并且只在事务日志中记录页的释放。 `     
+ `(8) TRUNCATE TABLE删除表中的所有行，但表结构及其列、约束、索引等保持不变。新行标识所用的计数值重置为该列的种子。如果想保留标识计数值，请改用DELETE。如果要删除表定义及其数据，请使用DROP TABLE语句。  `    
+ `(9) 对于由FOREIGN KEY约束引用的表，不能使用TRUNCATE TABLE，而应使用不带WHERE子句的DELETE语句。由于TRUNCATE TABLE不记录在日志中，所以它不能激活触发器。`   
  `(10) TRUNCATE TABLE不能用于参与了索引视图的表。 `  
 * 11.你觉得你比较适合测试工作的特质是什么?  
 * 12.我们的产品你觉得最值得吐槽点是什么? 
@@ -40,7 +40,7 @@
 * 16.北京这城市这样，你为什么还想来?   
 * 17.你有没有从师姐师兄那儿了解技术工作这么累，为什么还要做?   
 * 18.你觉得百度招的这个开发测试工程师和别的公司招的测试工程师有什么差别?   
-* 19.在测试的过程中遇到缺陷，但是开发人员很固执怎么办? 我想了个招，她又问要是他还继续固执呢? 我又想了个招，有兴趣的可以来问我，并不觉得自己的招好?   
+* 19.在测试的过程中遇到缺陷，但是开发人员很固执怎么办? 我想了个招，她又问要是他还继续固执呢? 我又想了个招，有兴趣的可以来问我，并不觉得自己的招好? 
 * 20.自我介绍的时候我提到我办过暑期辅导班，她有问我地点遇到的困难、初衷之类的问题?   
 * 21.你的最大缺点是什么? 我回答项目经验不太足。她继续追问指的是开发经验吗? 我说是。她继续问我在海信实习期间有没有了解一下?
 * 22.对多线程有了解吗?
@@ -76,7 +76,7 @@
 * 7.如果手里有多个offer会怎么选择?  
 * 8.你实习期间测得那些东西, 他们是用什么语言写的?  
 * 9.介绍一下你这个实习吧?
-* 10.在学校有没有学过测试相关的课程?  
+* 10.在学校有没有学过测试相关的课程?
 * 11.有什么问我的吗?
 
  这是我本科同学(女)的一段百度面经，最后成功拿到Offer。作为男生，压根就没把测试考虑在内。但是狼厂这种大厂，做测试还是需要相当的实力的。继续太渣，还得狠补。
