@@ -69,13 +69,13 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-22-Le">10.乐视(Le)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">10.华为(HuaWei-OJ)</a>
      </td>
       <td>
    <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-26-PerfectWorld">11.完美世界(PerfectWorld)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">12.华为(HuaWei-OJ)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-22-Le">12.乐视(Le)</a>
      </td>
    </tr>
    <tr>
