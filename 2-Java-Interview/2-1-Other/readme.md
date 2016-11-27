@@ -38,5 +38,5 @@
   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-3-LogConter.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(3)对数计数器(LogConter)</a>
   <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-16-huaweiOJ/2-16-4-AddTime.java" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp;(4)实现两个合法时间相加(AddTime)</a> 
 
-**# (13)多线程通信:(ThreadCommunication)**  
+**# (13)多线程通信:(ThreadCommunication)**      
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/7-ThreadCommunication.java" >Open URL</a> 
