@@ -44,5 +44,5 @@
 **# (14)头像加消息:(Picture)**         
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-1-Other/10-Picture" >Open URL</a> 
 
-**# (15)RabbitMQ:(RabbitMQ Demo)**         
+**# (15)RabbitMQ:(RabbitMQ Demo)**         
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-1-Other/11-RabbitMQ" >Open URL</a> &nbsp;&nbsp;注意：需要引用jar包：rabbitmq-client.jar。
