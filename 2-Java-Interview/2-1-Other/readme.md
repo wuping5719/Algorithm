@@ -40,3 +40,6 @@
 
 **# (13)多线程通信:(ThreadCommunication)**      
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-1-Other/7-ThreadCommunication.java" >Open URL</a> 
+
+**# (14)头像加消息:(Picture)**      
+  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-1-Other/10-Picture" >Open URL</a> 
