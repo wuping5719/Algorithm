@@ -24,7 +24,7 @@
  `  linux提供了select、poll、epoll等方法来实现IO复用. `    
  ` 3)IO复用: 单个线程，通过记录跟踪每个I/O流(sock)的状态，来同时管理多个I/O流。 `
 * 5.进程和线程的概念，进程间通信的方式，消息队列和共享内存的适用场景.
- ```
+ ```html
   1) 进程与线程的一个简单解释: <http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html>      
   2) 进程间通信的方式:
     进程间8种通信方式:
