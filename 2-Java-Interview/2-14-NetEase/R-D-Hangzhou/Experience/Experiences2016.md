@@ -13,3 +13,4 @@
 * 10.Object的类都有哪些？
 * 11.哪些方法实现线程安全？(synchronized，reentrantlock，volatile)
 * 12.Object的类都有哪些？
+* 13.数据库优化.
