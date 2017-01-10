@@ -36,7 +36,7 @@
   `  (6) 信号 (sinal)：信号是一种比较复杂的通信方式，用于通知接收进程某个事件已经发生。   `      
   `  (7) 共享内存(shared memory) ：共享内存就是映射一段能被其他进程所访问的内存，这段共享内存由一个进程创建，但多个进程都可以访问。共享内存是最快的 IPC 方式，它是针对其他进程间通信方式运行效率低而专门设计的。它往往与其他通信机制，如信号量配合使用，来实现进程间的同步和通信。  `        
   `  (8) 套接字(socket)：套接口也是一种进程间通信机制，与其他通信机制不同的是，它可用于不同机器间的进程通信。  `         
-  ` 3) 消息队列和共享内存的适用场景: <http://www.cnblogs.com/biyeymyhjob/archive/2012/11/04/2753535.html>   `
+  ` 3) 消息队列和共享内存的适用场景: ` <http://www.cnblogs.com/biyeymyhjob/archive/2012/11/04/2753535.html> 
 * 6.数据库的优化，索引为什么用B树，有什么好处？     
   B树在数据库索引中的应用剖析：<http://www.idouba.net/about-btrees-application-in-database-index-in-programmer/>        
   深入浅出空间索引：为什么需要空间索引: <http://www.cnblogs.com/LBSer/p/3392491.html>
