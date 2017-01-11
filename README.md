@@ -58,7 +58,7 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-33-JingDong">7.京东(JingDong)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-33-JingDong/Experiences/Experience201609.md">7.京东(JingDong)</a>
      </td>
      <td>
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-23-QiHu360">8.奇虎360(QiHu360)</a>
