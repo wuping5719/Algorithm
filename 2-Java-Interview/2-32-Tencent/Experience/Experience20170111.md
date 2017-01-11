@@ -10,10 +10,17 @@
 `  JRE(Java Runtime Environment)：Java 运行时环境，包含了 Java 虚拟机，Java 基础类库。是使用 Java 语言编写的程序运行所需要的软件环境，是提供给想运行 Java 程序的用户使用的。JRE根据不同操作系统(如：Windows，Linux等)和不同 JRE 提供商(IBM, ORACLE等)有很多版本，最常用的是 Oracle 公司收购 SUN 公司的JRE 版本。  `          
 `  最新 JDK1.8 的结构图：`         
   <img src="http://images.cnblogs.com/cnblogs_com/wp5719/936332/o_Java.png" /> 
-* 4. StringBuilder 和 StringBuffer。
-* 5. Java 异常机制？受检异常和运行时异常。
-* 6. Dubbo 介绍？
-* 7. Java 多线程的实现机制。
+* 4. StringBuilder 和 StringBuffer。         
+  <https://github.com/wuping5719/Reading-Java-SourceCode/blob/master/JDK1.7/java/lang/StringRelated/String.md>
+* 5. Java 异常机制？受检异常和运行时异常。         
+`  深入理解java异常处理机制：` <http://blog.csdn.net/hguisu/article/details/6155636>
+* 6. Dubbo 介绍？       
+`  Dubbo 框架入门介绍：` <http://www.cnblogs.com/chy2055/p/5110861.html>       
+`  基于 Dubbo 框架构建分布式服务： ` <http://shiyanjun.cn/archives/1075.html>          
+`  Dubbo 架构设计详解：` <http://shiyanjun.cn/archives/325.html>      
+`  Dubbo 文档：`  <http://dubbo.io/>
+* 7. Java 多线程的实现机制。      
+  <https://github.com/wuping5719/MyCNBlogs/blob/master/Reading-Notes/JavaConcurrencyInPractice.md>
 * 8. 项目简单介绍？从业务和技术两个方面。     
 * 9. 有没有什么问题想问面试官的？  
   多学习，多总结。革命尚未成功，同志任需努力。        
