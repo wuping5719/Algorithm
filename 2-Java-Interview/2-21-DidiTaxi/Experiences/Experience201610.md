@@ -6,7 +6,7 @@
 * 3. 写反转字符串， 写类的多态。
 * 4. SQL 命令：select，sum，group by， like。
 * 5. TCP 和 UDP 的区别？
-* 6. API测试。
+* 6. API 测试。
 
 二面面经：
 * 1.介绍实习项目经历。
