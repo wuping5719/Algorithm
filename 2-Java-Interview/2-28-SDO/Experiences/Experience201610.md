@@ -10,8 +10,10 @@
 * 5. 数据库SQL优化（每次面试必问，讲了很多，把数据库优化都讲了一遍）
 * 6. 常用框架介绍.
 * 7. 集合类介绍(着重讲了LinkedHashMap, TreeSet).
-* 8. Java虚拟机结构(方法区，堆，Java栈，PC寄存器，本地方法栈).  <http://www.open-open.com/lib/view/open1412594658781.html> 
-* 9. 堆(heap)栈(stack)的区别？ <http://www.cnblogs.com/wp5719/p/5778047.html> 
+* 8. Java虚拟机结构(方法区，堆，Java栈，PC寄存器，本地方法栈).        
+  <http://www.open-open.com/lib/view/open1412594658781.html> 
+* 9. 堆(heap)栈(stack)的区别？       
+  <http://www.cnblogs.com/wp5719/p/5778047.html> 
 * 10. 多线程的基本知识点. 
 * 11. 面向对象3种特性.
 
