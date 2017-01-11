@@ -14,8 +14,8 @@
   <https://github.com/wuping5719/Reading-Java-SourceCode/blob/master/JDK1.7/java/lang/StringRelated/String.md>
 * 5. Java 异常机制？受检异常和运行时异常。         
 `  深入理解java异常处理机制：` <http://blog.csdn.net/hguisu/article/details/6155636>
-* 6. Dubbo 介绍？       
-`  Dubbo 框架入门介绍：` <http://www.cnblogs.com/chy2055/p/5110861.html>       
+* 6. Dubbo 介绍？      
+`  Dubbo 框架入门介绍：` <http://www.cnblogs.com/chy2055/p/5110861.html>               
 `  基于 Dubbo 框架构建分布式服务： ` <http://shiyanjun.cn/archives/1075.html>          
 `  Dubbo 架构设计详解：` <http://shiyanjun.cn/archives/325.html>      
 `  Dubbo 文档：`  <http://dubbo.io/>
