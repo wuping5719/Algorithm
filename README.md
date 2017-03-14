@@ -142,12 +142,12 @@ The algorithm derived from the 《Sword Offer》(剑指Offer), 《The beauty of 
    </tr>
  </table>
  
-  <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
-   4.程序员面试金典(CrackingCodingInterview)</a></h2>
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
+4.程序员面试金典(CrackingCodingInterview)</a></h2>
 
-  <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>牛客LeetCode地址：<http://www.nowcoder.com/ta/leetcode?page=1>
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>牛客LeetCode地址：<http://www.nowcoder.com/ta/leetcode?page=1>
   
-  <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
+<h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
   **# (1)让CPU运行周期画出一条正弦曲线:(CPURatio)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" >Open URL</a> 
    
@@ -163,6 +163,5 @@ The algorithm derived from the 《Sword Offer》(剑指Offer), 《The beauty of 
   **# (5)C程序自动生成简历:(ResumeByC)**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" >Open URL</a> 
 
-  <h2>7.C#.Net</h2>
-  **# (1)程序运行时间和语义理解:(TimeAndProgram)**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/4-.NET/4-1-TimeAndProgram" >Open URL</a> 
+<h2>7.C#.Net</h2>
+**# (1)程序运行时间和语义理解:(TimeAndProgram) &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/4-.NET/4-1-TimeAndProgram" >Open URL</a> 
