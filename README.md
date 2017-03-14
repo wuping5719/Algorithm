@@ -4,6 +4,7 @@
     
 <h2><a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/01-Sword-Offer.md">
 1.剑指Offer(Sword-Offer)</a></h2>
+
 * (1)二维数组中查找 
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-FindInPartiallySortedMatrix.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
@@ -19,9 +20,9 @@
   <p><img src="http://img.blog.csdn.net/20160408152810832?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" /></p>
   
 <h2>2.内部排序(Internal Sort)</h2>
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
+  &nbsp;&nbsp;&nbsp; 源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
     target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
-  &nbsp;&nbsp;序号12为内部排序算法总结：包含13个子文件。   
+  &nbsp;&nbsp;&nbsp; 序号12为内部排序算法总结：包含13个子文件。   
   
   &nbsp;所列排序算法有：         
   
@@ -156,6 +157,7 @@
 <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>牛客LeetCode地址：<http://www.nowcoder.com/ta/leetcode?page=1>
   
 <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
+
 * (1)让CPU运行周期画出一条正弦曲线:(CPURatio) 
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" >Open URL</a> 
    
