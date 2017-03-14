@@ -1,29 +1,29 @@
 # Algorithm
-  This project is mainly to explain some of the algorithm program.   
-  The algorithm derived from the 《Sword Offer》(剑指Offer), 《The beauty of programming》(编程之美), 《Cracking Coding Interview》(程序员面试金典).  
+This project is mainly to explain some of the algorithm program.   
+The algorithm derived from the 《Sword Offer》(剑指Offer), 《The beauty of programming》(编程之美), 《Cracking Coding Interview》(程序员面试金典).  
     
-  <h2><a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/01-Sword-Offer.md">
-   1.剑指Offer(Sword-Offer)</a></h2>
-  **# (1)二维数组中查找**  
+<h2><a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/01-Sword-Offer.md">
+1.剑指Offer(Sword-Offer)</a></h2>
+**# (1)二维数组中查找**  
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-FindInPartiallySortedMatrix.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a> 
    <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-3-FindInPartiallySortedMatrix_03.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a>
   <p><img src="http://img.blog.csdn.net/20160407205044317?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
   
-  **# (2)替换空格**  
-  &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/2-ReplaceBlank.java" 
+**# (2)替换空格**  
+&nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/2-ReplaceBlank.java" 
     style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>
   <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-4-ReplaceBlank_04.java" 
     style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a> 
   <p><img src="http://img.blog.csdn.net/20160408152810832?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" /></p>
   
-  <h2>2.内部排序(Internal Sort)</h2>
+<h2>2.内部排序(Internal Sort)</h2>
   &nbsp;&nbsp;源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
     target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
-  &nbsp;&nbsp;序号12为内部排序算法总结：包含13个子文件。  
-  &nbsp;所列排序算法有：  
-  &nbsp;&nbsp;&nbsp; 1) 插入排序：(1)直接插入排序，(2)折半插入排序，(3)2路插入排序，(4)希尔排序。  
+  &nbsp;&nbsp;序号12为内部排序算法总结：包含13个子文件。         
+  &nbsp;所列排序算法有：         
+  &nbsp;&nbsp;&nbsp; 1) 插入排序：(1)直接插入排序，(2)折半插入排序，(3)2路插入排序，(4)希尔排序。         
   &nbsp;&nbsp;&nbsp; 2)交换排序：(1)冒泡排序，(2)快速排序，(3)梳排序。    
   &nbsp;&nbsp;&nbsp; 3)选择排序：(1)直接选择排序，(2)树形选择排序，(3)堆排序。  
   &nbsp;&nbsp;&nbsp; 4)归并排序。  
@@ -31,8 +31,8 @@
   &nbsp;&nbsp;&nbsp; 6)计数排序；桶排序。
   <p><img src="http://img.blog.csdn.net/20160416161924296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
   
-  <h2>3.Java面试(Interview about Java)</h2>
-  <Strong>★ 2016名企秋招 </Strong>
+<h2>3.Java面试(Interview about Java)</h2>
+<Strong>★ 2016名企秋招 </Strong>
   <table>
    <tr>
      <td>
