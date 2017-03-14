@@ -154,7 +154,7 @@
 <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
 4.程序员面试金典(CrackingCodingInterview)</a></h2>
 
-<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>牛客LeetCode地址：<http://www.nowcoder.com/ta/leetcode?page=1>
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>
   
 <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
 
