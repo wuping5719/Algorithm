@@ -5,10 +5,13 @@
    
 * 1.把一颗二叉树同层的节点用next指针链接起来.     
   <http://www.cnblogs.com/shawnhue/p/leetcode_116_117.html>    
+  
 * 2.Spring Bean对象的生命周期.      
   Spring Bean的生命周期（非常详细）: <http://www.cnblogs.com/zrtqsk/p/3735273.html>    
+  
 * 3.计算机网络中的同步和异步.      
   计算机网络-步传输和异步传输（理解）: <http://blog.csdn.net/thisispan/article/details/7481127>
+  
 * 4.服务器的多线程和IO复用的应用场景，IO复用是什么复用?       
  ` 1) 多线程的应用场景: `     
  ` (1) 线程间有数据共享，并且数据是需要修改的（不同任务间需要大量共享数据或频繁通信时）； `     
@@ -23,6 +26,7 @@
  ` (5) 如果一个服务器要处理多个服务或者多个协议，一般需要用到IO复用。 `     
  `  linux提供了select、poll、epoll等方法来实现IO复用. `    
  ` 3)IO复用: 单个线程，通过记录跟踪每个I/O流(sock)的状态，来同时管理多个I/O流。 `
+ 
 * 5.进程和线程的概念，进程间通信的方式，消息队列和共享内存的适用场景.      
 ` 1) 进程与线程的一个简单解释: ` <http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html>        
   ` 2) 进程间通信的方式:  `        
@@ -37,6 +41,7 @@
   `  (7) 共享内存(shared memory) ：共享内存就是映射一段能被其他进程所访问的内存，这段共享内存由一个进程创建，但多个进程都可以访问。共享内存是最快的 IPC 方式，它是针对其他进程间通信方式运行效率低而专门设计的。它往往与其他通信机制，如信号量配合使用，来实现进程间的同步和通信。  `        
   `  (8) 套接字(socket)：套接口也是一种进程间通信机制，与其他通信机制不同的是，它可用于不同机器间的进程通信。  `         
   ` 3) 消息队列和共享内存的适用场景: ` <http://www.cnblogs.com/biyeymyhjob/archive/2012/11/04/2753535.html> 
+  
 * 6.数据库的优化，索引为什么用B树，有什么好处？     
   B树在数据库索引中的应用剖析：<http://www.idouba.net/about-btrees-application-in-database-index-in-programmer/>        
   深入浅出空间索引：为什么需要空间索引: <http://www.cnblogs.com/LBSer/p/3392491.html>
