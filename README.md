@@ -19,11 +19,7 @@
     style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a> 
   <p><img src="http://img.blog.csdn.net/20160408152810832?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" /></p>
   
-<h2>2.内部排序(Internal Sort)</h2>
-  &nbsp;&nbsp;&nbsp; 源码地址(Source address)：<a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort" 
-    target="_blank" style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">Open URL</a>  
-  &nbsp;&nbsp;&nbsp; 序号12为内部排序算法总结：包含13个子文件。   
-  
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/12-Sort">2.内部排序(Internal Sort)</a></h2>
   &nbsp;所列排序算法有：         
   
   &nbsp;&nbsp;&nbsp; 1) 插入排序：(1)直接插入排序，(2)折半插入排序，(3)2路插入排序，(4)希尔排序。
@@ -170,8 +166,8 @@
 * (4)求无符号整数中1的个数:(NumOfOne) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-4-NumOfOne.cpp" >&nbsp;&nbsp; Open URL</a> 
    
-* (5)C程序自动生成简历:(ResumeByC)  
-  <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" >&nbsp;&nbsp; Open URL</a> 
+* (5)C程序自动生成简历:(ResumeByC) 
+   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" >&nbsp;&nbsp; Open URL</a> 
 
 <h2>7.C#.Net</h2>
 
