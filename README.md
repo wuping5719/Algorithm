@@ -6,9 +6,9 @@
 1.剑指Offer(Sword-Offer)</a></h2>
 
 * (1)二维数组中查找 
-   <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-FindInPartiallySortedMatrix.java" 
+ <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-FindInPartiallySortedMatrix.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a> 
-   <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-3-FindInPartiallySortedMatrix_03.java" 
+ <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-3-FindInPartiallySortedMatrix_03.java" 
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a>
   <p><img src="http://img.blog.csdn.net/20160407205044317?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
   
@@ -160,7 +160,7 @@
 * (2)中国象棋将帅对决:(GeneralsOfChineseChess) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-2-GeneralsOfChineseChess.cpp" >&nbsp;&nbsp; Open URL</a> 
    
-* (3)求最大公约数:(GreatestCommonDivisor)  
+* (3)求最大公约数:(GreatestCommonDivisor)
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-3-GreatestCommonDivisor.cpp" >&nbsp;&nbsp; Open URL</a> 
   
 * (4)求无符号整数中1的个数:(NumOfOne) 
