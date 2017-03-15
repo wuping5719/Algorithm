@@ -12,7 +12,7 @@
    style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a>
   <p><img src="http://img.blog.csdn.net/20160407205044317?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
   
-* (2)替换空格  
+* (2)替换空格
   <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/2-ReplaceBlank.java" 
     style="cursor: pointer; color: rgb(0, 102, 204); text-decoration: none;">&nbsp;&nbsp; Open URL</a>
   <a href="https://github.com/wuping5719/Algorithm/blob/master/1-Sword-Offer/1-4-ReplaceBlank_04.java" 
