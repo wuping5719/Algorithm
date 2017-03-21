@@ -1,4 +1,5 @@
 <h3> 2016年9月招银网络秋招, 电话面试, Java后台研发面经 </h3>
+
 &nbsp;&nbsp;&nbsp;  最后拿到Offer.  
 
 笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-30-CMBNT>
@@ -14,6 +15,7 @@
  全程基本上都是我在说，BaLa BaLa说了一堆(╮(╯▽╰)╭).
   
 <Strong>二面技术+HR面</Strong> 
+  
   三个面试官坐一排, 第一个HR看了一下带来的学位证和成绩单等信息；中间那个问问题比较多，应该是个Leader；第三个面试官偶尔讲一两句.
 从岛城跑过去，又累又困，还迟到了(╮(╯▽╰)╭).
 
