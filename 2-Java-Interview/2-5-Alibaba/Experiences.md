@@ -154,7 +154,6 @@ hash 值的后面，它们在数组的同一个位置，但是形成了链表，
 * 5.数据库问题：InnoDB 和 MyISAM 两种引擎的区别？
 
 论MySQL数据库中两种数据引擎的差别：<http://www.cnblogs.com/qingsong/p/5351156.html>
-
 <table>
    <tr>
      <td> </td>
