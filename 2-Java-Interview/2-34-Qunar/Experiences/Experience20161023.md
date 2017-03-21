@@ -2,8 +2,7 @@
 
 <Strong>技术面</Strong>
 
-* 1. Java自定义注解的使用？   
-
+* 1.Java自定义注解的使用？   
  注解(Annotation)自定义注解入门: <http://www.cnblogs.com/peida/archive/2013/04/24/3036689.html>    
   1) 元注解的作用就是负责注解其他注解。Java5.0定义了4个标准的meta-annotation类型，它们被用来提供对其它annotation类型作说明。   
   Java5.0定义的元注解：   
