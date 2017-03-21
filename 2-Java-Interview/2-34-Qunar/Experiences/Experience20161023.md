@@ -1,5 +1,7 @@
 ### 2016年10月23日 去哪儿网秋招, 北京, Java后台研发面经 ###
-
+ 
+ 笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-34-Qunar>
+ 
 <Strong>技术面</Strong>
 
 * 1.Java自定义注解的使用？   
