@@ -107,7 +107,7 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-28-SDO">19.盛大游戏(SDO)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-28-SDO/Experiences/Experience201610.md">19.盛大游戏(SDO)</a>
      </td>
      <td>
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-18-Inspur">20.浪潮(Inspur)</a>
