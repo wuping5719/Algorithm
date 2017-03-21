@@ -148,8 +148,8 @@ hash 值的后面，它们在数组的同一个位置，但是形成了链表，
 * 4.分布式事务.
 ```html
 搜集的两篇文章：
-  (1) 分布式系统的事务处理： <http://coolshell.cn/articles/10910.html>
-  (2) 深入理解分布式事务： <http://www.codeceo.com/article/distributed-transaction.html>
+  (1) 分布式系统的事务处理： http://coolshell.cn/articles/10910.html
+  (2) 深入理解分布式事务： http://www.codeceo.com/article/distributed-transaction.html
 ``` 
 
 * 5.数据库问题：InnoDB 和 MyISAM 两种引擎的区别？
