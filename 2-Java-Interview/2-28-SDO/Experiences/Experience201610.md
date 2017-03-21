@@ -1,7 +1,9 @@
 ### 2016年10月盛大游戏(上海)秋招, QQ视频面试, Java后台开发面经 ###
  已面两面技术. 最终Offer，工资太低，已拒。
-
-<Strong>一面技术面</Strong>    
+ 
+ 笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-28-SDO>
+ 
+<Strong>一面技术面</Strong>    
   面试时间是中午, 一个很年轻的小哥. 面完之后将所做过的项目截图发给了他。
 * 1.接口和静态类的区别.
 * 2.Java中有几大引用(4大引用: 强引用, 弱引用, 软引用和虚引用)
