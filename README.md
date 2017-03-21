@@ -80,7 +80,7 @@
    <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-26-PerfectWorld">11.完美世界(PerfectWorld)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-30-CMBNT">12.招商银行网络科技(CMBNT)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-30-CMBNT/Experiences/Experience201609.md">12.招商银行网络科技(CMBNT)</a>
      </td>
    </tr>
    <tr>
