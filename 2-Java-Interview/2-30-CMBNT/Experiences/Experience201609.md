@@ -1,8 +1,8 @@
 <h3> 2016年9月招银网络秋招, 电话面试, Java后台研发面经 </h3>
 &nbsp;&nbsp;&nbsp;  最后拿到Offer.  
 
- 笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-30-CMBNT>
- 
+笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-30-CMBNT>
+
 <Strong>一面技术面</Strong>    
 
 * 1.简单自我介绍.
