@@ -37,5 +37,5 @@
   <https://github.com/wuping5719/MyCNBlogs/blob/master/Reading-Notes/JavaConcurrencyInPractice.md>
 * 8. 项目简单介绍？从业务和技术两个方面。     
 * 9. 有没有什么问题想问面试官的？  
-  多学习，多总结。革命尚未成功，同志任需努力。        
+  多学习，多总结。革命尚未成功，同志仍需努力。        
   面试可能还会问到数据库优化，Linux相关知识，Web常用框架，Java源码，JVM虚拟机，多线程，机器学习十大算法，消息中间件，NoSQL数据库等。
