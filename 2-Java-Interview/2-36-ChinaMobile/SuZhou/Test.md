@@ -1,6 +1,6 @@
 ### 中国移动(苏州)研发中心秋招笔试题 ###
 
-秋招面经:<https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-36-ChinaMobile/SuZhou/Experiences/Experience20161025.md>
+秋招面经： <https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-36-ChinaMobile/SuZhou/Experiences/Experience20161025.md>
   
 * 1.什么是java序列化？如何实现java序列化？    
 &nbsp;  ` (1) 序列化就是一种用来处理对象流的机制(对象流就是将对象的内容进行流化). 可以对流化后的对象进行读写操作，也可将流化后的对象传输于网络之间。序列化是为了解决在对对象流进行读写操作时所引发的问题。 `   
