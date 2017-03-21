@@ -147,11 +147,65 @@ hash 值的后面，它们在数组的同一个位置，但是形成了链表，
   
 * 4.分布式事务.
 
-搜集的两篇文章：
-
-  (1) 分布式系统的事务处理： <http://coolshell.cn/articles/10910.html>
+(1) 分布式系统的事务处理： <http://coolshell.cn/articles/10910.html>
   
-  (2) 深入理解分布式事务： <http://www.codeceo.com/article/distributed-transaction.html>
+(2) 深入理解分布式事务： <http://www.codeceo.com/article/distributed-transaction.html>
 
 * 5.数据库问题：InnoDB 和 MyISAM 两种引擎的区别？
+
+论MySQL数据库中两种数据引擎的差别：<http://www.cnblogs.com/qingsong/p/5351156.html>
+
+<table>
+   <tr>
+     <td> </td>
+     <td> InnoDB </td>
+     <td> MyISAM </td>
+   </tr>
+   <tr>
+     <td>存储结构</td>
+     <td>所有的表都保存在同一个数据文件中(也可能是多个文件, 或者是独立的表空间文件); InnoDB 表的大小只受限于操作系统文件的大小</td>
+     <td>每张表被存放在三个文件(frm-表格定义、MYD(MYData)-数据文件、MYI(MYIndex)-索引文件)</td>
+   </tr>
+   <tr>
+     <td>存储空间</td>
+     <td>需要更多的内存和存储, 它会在主内存中建立其专用的缓冲池用于高速缓冲数据和索引</td>
+     <td>可被压缩, 存储空间较小</td>
+   </tr>
+   <tr>
+     <td>事务和外键</td>
+     <td>支持</td>
+     <td>不支持</td>
+   </tr>
+   <tr>
+     <td>是否支持全文索引</td>
+     <td>不支持</td>
+     <td>支持</td>
+   </tr>
+   <tr>
+     <td>锁级别</td>
+     <td>行级锁</td>
+     <td>锁全表</td>
+   </tr>
+   <tr>
+     <td>是否保存表的具体行数</td>
+     <td>否</td>
+     <td>是</td>
+   </tr>
+   <tr>
+     <td>AUTO_INCREMENT 类型字段索引</td>
+     <td>只能对该字段建立单独索引</td>
+     <td>可以和其他字段一起建立联合索引</td>
+   </tr>
+   <tr>
+     <td>执行语句</td>
+     <td>INSERT/UPDATE/DELETE时, InnoDB更优</td>
+     <td>SELECT时, MyISAM更优</td>
+   </tr>
+   <tr>
+     <td>可移植性、备份及恢复</td>
+     <td>拷贝数据文件、备份 binlog, 或者使用 mysqldump, 在数据量达到几十 G 的时候就相对痛苦了</td>
+     <td>MyISAM 的数据以文件的形式存储，所以在跨平台的数据转移中会很方便</td>
+   </tr>
+ </table>
+
 * 6.对阿里云的了解.
