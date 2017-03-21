@@ -1,9 +1,8 @@
 <h3> 2016-04：阿里巴巴(Alibaba)实习生招聘面试 </h3>
-   一开始肯定会先问个人的研究方向, 论文, 项目, 然后从这些内容中找出一些问题来考察我们.   
-   然后java基础大致如下：答案自己Google或百度找吧. (^_^)
+   一开始肯定会先问个人的研究方向, 论文, 项目, 然后从这些内容中找出一些问题来考察我们. 然后java基础大致如下：答案自己Google或百度找吧. (^_^)
    
-* 1. HashMap和HashTable的区别, 及其实现原理. 
-* 2. ArrayList, LinkedList和Vector的区别和实现原理.
+* 1.HashMap和HashTable的区别, 及其实现原理. 
+* 2.ArrayList, LinkedList和Vector的区别和实现原理.
 * 3.TreeMap和TreeSet区别和实现原理.
 * 4.ConcurrentHashMap实现原理(锁分离技术).
 * 5.问JVM内存分代机制(会问分为哪几个代, 各个代特点), 分代回收的优点(这个问了很多次).
@@ -129,6 +128,5 @@
 
   innodb_thread_concurrency=9  # InnoDB内核最大并发线程数
 ```
-  导师一直不让去实习，心中永远的痛啊！
-  
+
 <h3> 2017-03-20：阿里云 春招电面 </h3>
