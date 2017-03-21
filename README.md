@@ -55,7 +55,7 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-14-NetEase">4.网易(NetEase)</a>
      </td>
      <td>
-        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-31-NewMeiDa">5.新美大(美团,大众点评)(NewMeiDa)</a>
+        <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-31-NewMeiDa/Experiences.md">5.新美大(美团,大众点评)(NewMeiDa)</a>
      </td>
      <td>
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-21-DidiTaxi">6.滴滴打车(DidiTaxi)</a>
