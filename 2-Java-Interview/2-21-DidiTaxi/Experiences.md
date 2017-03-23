@@ -1,5 +1,7 @@
-### 2016秋招 滴滴测试开发面经 ###
+### 2016-10 秋招 滴滴测试开发面经 ###
 
+笔试题：<https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-21-DidiTaxi>
+ 
 一面面经：
 * 1.死锁是什么，如何解决？
 * 2.进程和线程区别？
