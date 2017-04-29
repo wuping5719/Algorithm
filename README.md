@@ -146,7 +146,7 @@
   
   &nbsp;&nbsp;&nbsp; 6)计数排序；桶排序。
   
-  <p><img src="http://img.blog.csdn.net/20160416161924296?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" /></p>
+  <p><img src="http://images.cnblogs.com/cnblogs_com/wp5719/936332/o_sorts.png" /></p>
   
 <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/5-CrackingCodingInterview">
 4.程序员面试金典(CrackingCodingInterview)</a></h2>
