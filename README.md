@@ -4,7 +4,7 @@
 
 <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview">
 1.Java面试(Interview about Java)</a></h2>
-<Strong>★ 2016名企秋招 </Strong>
+<Strong>★ 名企秋招 </Strong>
 <table>
    <tr>
      <td>
