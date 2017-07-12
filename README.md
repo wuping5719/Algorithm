@@ -155,19 +155,22 @@
   
 <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
 
-* (1)让CPU运行周期画出一条正弦曲线:(CPURatio) 
+* (1)面试高级算法:
+  <a href="https://github.com/wuping5719/Algorithm/blob/master/7-AdvancedAlgorithm/Note.md" >&nbsp;&nbsp; Open URL</a> 
+  
+* (2)让CPU运行周期画出一条正弦曲线:(CPURatio) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" >&nbsp;&nbsp; Open URL</a> 
    
-* (2)中国象棋将帅对决:(GeneralsOfChineseChess) 
+* (3)中国象棋将帅对决:(GeneralsOfChineseChess) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-2-GeneralsOfChineseChess.cpp" >&nbsp;&nbsp; Open URL</a> 
    
-* (3)求最大公约数:(GreatestCommonDivisor)
+* (4)求最大公约数:(GreatestCommonDivisor)
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-3-GreatestCommonDivisor.cpp" >&nbsp;&nbsp; Open URL</a> 
   
-* (4)求无符号整数中1的个数:(NumOfOne) 
+* (5)求无符号整数中1的个数:(NumOfOne) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-4-NumOfOne.cpp" >&nbsp;&nbsp; Open URL</a> 
    
-* (5)C程序自动生成简历:(ResumeByC) 
+* (6)C程序自动生成简历:(ResumeByC) 
    <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" >&nbsp;&nbsp; Open URL</a> 
 
 <h2>7.C#.Net</h2>
