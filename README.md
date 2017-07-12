@@ -155,8 +155,8 @@
   
 <h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
 
-* (1)面试高级算法:
-  <a href="https://github.com/wuping5719/Algorithm/blob/master/7-AdvancedAlgorithm/Note.md" >&nbsp;&nbsp; Open URL</a> 
+* <strong> (1)面试高级算法:
+  <a href="https://github.com/wuping5719/Algorithm/blob/master/7-AdvancedAlgorithm/Note.md" >&nbsp;&nbsp; Open URL</a></strong>
   
 * (2)让CPU运行周期画出一条正弦曲线:(CPURatio) 
   <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-1-CPURatio.cpp" >&nbsp;&nbsp; Open URL</a> 
