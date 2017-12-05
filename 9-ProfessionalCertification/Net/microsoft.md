@@ -1,39 +1,39 @@
-'''c#
+```C#
 1. 你正在开发一个实现电子问卷的应用。问卷共有25个答案为 true 或 false 的问题。你需要完成以下任务：
    (1) 初始化每个问题的答案为 true；
    (2) 每个问题的答案使用最小内存.
   你应该使用哪种方式存储答案？
-A.	BitVector32 answers = new BitVector32(1);
-B.	BitVector32 answers = new BitVector32(-1);
-C.	BitArray answers = new BitArray(1);
-D.	BitArray answers = new BitArray(-1);
+    A. BitVector32 answers = new BitVector32(1);
+    B. BitVector32 answers = new BitVector32(-1);
+    C. BitArray answers = new BitArray(1);
+    D. BitArray answers = new BitArray(-1);
 答案：B
 
 2. 你写了如下一段代码：
     public delegate void FaxDocs(object sender, FaxArgs args);
    你需要创建一个调用 FaxDocs 的事件，你应该使用哪个代码段？
-A．	public static event FaxDocs Fax;
-B．	public static event Fax FaxDocs;
-C．	public class FaxArgs : EventArgs 
-{
-   private string coverPageInfo;
-   public FaxArgs(string coverPageInfo)
-   {
-      this.coverPageInfo = coverPageInfo;
-   }
-   public string CoverPageInformation
-   { 
-      get { return this.coverPageInfo; }
-   }
-}
-D．	public class FaxArgs : EventArgs 
-{
-   private string coverPageInfo;
-   public string CoverPageInformation
-   { 
-      get { return this.coverPageInfo; }
-   }
-}
+   A．public static event FaxDocs Fax;
+   B．public static event Fax FaxDocs;
+   C．public class FaxArgs : EventArgs 
+      {
+          private string coverPageInfo;
+          public FaxArgs(string coverPageInfo)
+          {
+             this.coverPageInfo = coverPageInfo;
+          }
+          public string CoverPageInformation
+          { 
+             get { return this.coverPageInfo; }
+          }
+       }
+    D．public class FaxArgs : EventArgs 
+       {
+          private string coverPageInfo;
+          public string CoverPageInformation
+          { 
+             get { return this.coverPageInfo; }
+          }
+       }
 答案：A
 
 3. 你写如下的代码段去调用 Win32 Application Programming Interface (API)：
@@ -383,5 +383,5 @@ A. 创建服务安装类，设置 ServiceInstaller 类的 StartType 属性。
 B. 创建服务安装类，设置 ServiceProcessInstaller 的 Account，Username 和 Password 属性。
 C. 使用net.exe 命令行
 
-'''
+```
 http://www.ppkao.com/search/?q=net-framework%CE%A2%C8%ED%C8%CF%D6%A4%BF%BC%CA%D4%CA%D4%CC%E2%BC%B0%B4%F0%B0%B8&s=7348154799869824824
