@@ -173,7 +173,7 @@
 * (6)C程序自动生成简历:(ResumeByC) 
    <a href="https://github.com/wuping5719/Algorithm/blob/master/3-C-And-CPlusPlus-Interview/3-5-ResumeByC.c" >&nbsp;&nbsp; Open URL</a> 
 
-<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/4-CSharp">7.C#.Net</a></h2>
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/4-CSharp">7.C#.NET</a></h2>
 
 * (1)程序运行时间和语义理解:(TimeAndProgram) 
   <a href="https://github.com/wuping5719/Algorithm/tree/master/4-CSharp/4-1-TimeAndProgram.cs" >&nbsp;&nbsp; Open URL</a> 
