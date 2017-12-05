@@ -153,7 +153,7 @@
 
 <h2><a href="https://github.com/wuping5719/Algorithm/tree/master/6-LeetCode">5.LeetCode</a></h2>
   
-<h2>6.C&C++面试(C-And-CPlusPlus-Interview)</h2>
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/3-C-And-CPlusPlus-Interview">6.C&C++面试(C-And-CPlusPlus-Interview)</a></h2>
 
 * <strong> (1)面试高级算法:
   <a href="https://github.com/wuping5719/Algorithm/blob/master/7-AdvancedAlgorithm/Note.md" >&nbsp;&nbsp; Open URL</a></strong>
