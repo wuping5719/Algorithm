@@ -177,3 +177,7 @@
 
 * (1)程序运行时间和语义理解:(TimeAndProgram) 
   <a href="https://github.com/wuping5719/Algorithm/tree/master/4-CSharp/4-1-TimeAndProgram.cs" >&nbsp;&nbsp; Open URL</a> 
+
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/8-Design_Pattern">8.设计模式</a></h2>
+
+<h2><a href="https://github.com/wuping5719/Algorithm/tree/master/9-ProfessionalCertification">9.专业认证</a></h2>
