@@ -108,8 +108,10 @@
     D.Hashtable class
 答案：B
 
-7. 你正在写一个应用。它利用 SOAP 去和其他应用交换数据。你使用一个从 ArrayList 继承的Department 类作为数据对象发送给另一个应用。
-Department被命名为 dept。为了通过 SOAP进行传送，你需要保证 Department 对象被序列化。你应该使用下面哪个代码进行 dept 的序列化？
+7. 你正在写一个应用。它利用 SOAP 去和其他应用交换数据。
+   你使用一个从 ArrayList 继承的Department 类作为数据对象发送给另一个应用。
+   Department被命名为 dept。为了通过 SOAP进行传送，你需要保证 Department 对象被序列化。
+   你应该使用下面哪个代码进行 dept 的序列化？
    A. SoapFormatter formatter = new SoapFormatter();
       byte[] buffer = new byte[dept.Capacity];
       MemoryStream stream = new MemoryStream(buffer);
