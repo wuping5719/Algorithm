@@ -1115,7 +1115,8 @@
       }
 答案：D
 
-57.你正在写一个名为 MyDictionary 的自定义键/值对的集合(dictionary)。你需要保证MyDictionary 是类型安全的。你应该下面哪段代码？
+57.你正在写一个名为 MyDictionary 的自定义键/值对的集合(dictionary)。你需要保证MyDictionary 是类型安全的。
+   你应该下面哪段代码？
      A. Class MyDictionary Implements Dictionary(Of String, String)
      B. Class MyDictionary Inherits HashTable
      C. Class MyDictionary Implements IDictionary
