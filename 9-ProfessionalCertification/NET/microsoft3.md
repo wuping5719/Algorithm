@@ -127,16 +127,16 @@
 
 45.你正在改变文件 MyData.xml 的安全设置。你需要保留已经继承的访问规则，但是不会通过继承被父对象修改。你应该怎么做？
      A. FileSecurity security = new FileSecurity(“mydata.xml”, AccessControlSections.All);
-       Security.SetAccessRuleProtection(true, true);
-       File.SetAccessControl(“mydata.xml”, security);
+        Security.SetAccessRuleProtection(true, true);
+        File.SetAccessControl(“mydata.xml”, security);
      B. FileSecurity security = new FileSecurity();
-       Security.SetAccessRuleProtection(true, true);
-       File.SetAccessControl(“mydata.xml”, security);
+        Security.SetAccessRuleProtection(true, true);
+        File.SetAccessControl(“mydata.xml”, security);
      C. FileSecurity security = File.GetAccessControl(“mydata.xml”);
-       security.SetAccessRuleProtection(true, true);
+        security.SetAccessRuleProtection(true, true);
      D. FileSecurity security = File.GetAccessControl(“mydata.xml”);
-       security.SetAuditRuleProtection(true, true);
-       File.SetAccessControl(“mydata.xml”, security);
+        security.SetAuditRuleProtection(true, true);
+        File.SetAccessControl(“mydata.xml”, security);
 答案：A
 
 46.你正在创建一个类，它用于比较指定格式的字符串。为此，你需要实现 IComparable<string> 接口。你应该使用下面哪个代码段?
@@ -199,45 +199,45 @@
 49. 你正在测试一个执行进程检查的方法。这个方法返回一个包含被进程装载的所有模块的名称和完整路径的ArrayList。
     现在，你需要列出被进程C:\TestApps\Process1.exe装载的所有模块，你应该使用下面哪段代码？
      A. ArrayList ar = new ArrayList();
-       Process[] procs;
-       ProcessModuleCollection modules;
-       procs = Process.GetProcess(@”Process1”);
-       if (procs.Length > 0) {
+        Process[] procs;
+        ProcessModuleCollection modules;
+        procs = Process.GetProcess(@”Process1”);
+        if (procs.Length > 0) {
           modules = procs[0].Modules;
           foreach(ProcessModule mod in modules) {
              ar.Add(mod.ModuleName);
           }
-       }
+        }
      B. ArrayList ar = new ArrayList();
-       Process[] procs;
-       ProcessModuleCollection modules;
-       procs = Process.GetProcess(@”C:\TestApps\Process1.exe”);
-       if (procs.Length > 0) {
+        Process[] procs;
+        ProcessModuleCollection modules;
+        procs = Process.GetProcess(@”C:\TestApps\Process1.exe”);
+        if (procs.Length > 0) {
           modules = procs[0].Modules;
           foreach(ProcessModule mod in modules) {
              ar.Add(mod.ModuleName);
           }
-       }
+        }
      C. ArrayList ar = new ArrayList();
-       Process[] procs;
-       ProcessModuleCollection modules;
-       procs = Process.GetProcessByName(@”Process1”);
-       if (procs.Length > 0) {
+        Process[] procs;
+        ProcessModuleCollection modules;
+        procs = Process.GetProcessByName(@”Process1”);
+        if (procs.Length > 0) {
           modules = procs[0].Modules;
           foreach(ProcessModule mod in modules) {
              ar.Add(mod.FileName);
           }
-       }
+        }
      D. ArrayList ar = new ArrayList();
-       Process[] procs;
-       ProcessModuleCollection modules;
-       procs = Process.GetProcessByName(@”C:\TestApps\Process1.exe”);
-       if (procs.Length > 0) {
+        Process[] procs;
+        ProcessModuleCollection modules;
+        procs = Process.GetProcessByName(@”C:\TestApps\Process1.exe”);
+        if (procs.Length > 0) {
           modules = procs[0].Modules;
           foreach(ProcessModule mod in modules) {
              ar.Add(mod.FileName);
           }
-       }
+        }
 答案：C
 
 50.你的应用使用两个名为 threadOne 和 threadTwo 的线程。
@@ -364,16 +364,16 @@
   为此，你需要修改上述代码，使 Group 实例能够使用 XmlSerializer 成功的序列化。
   同时你也需要保证，输出的XML包含所有类层次中的public 属性。你应该如何修改？
   A. 在行1和行2之间插入:
-    [XmlArrayItem(Type = typeof(Employee))]
-    [XmlArrayItem(Type = typeof(Manager))]
+     [XmlArrayItem(Type = typeof(Employee))]
+     [XmlArrayItem(Type = typeof(Manager))]
   B. 在行1和行2之间插入:
-    [XmlElement(Type = typeof(Employees))]
+     [XmlElement(Type = typeof(Employees))]
   C. 在行1和行2之间插入:
-    [XmlArray (ElementName = ”Employee”)]
+     [XmlArray (ElementName = ”Employee”)]
   D. 在行3和行4之间插入:
-    [XmlElement(Type = typeof(Employee))]
-    并且在行6和行7之间插入:
-    [XmlElement(Type = typeof(Manager))]
+     [XmlElement(Type = typeof(Employee))]
+     并且在行6和行7之间插入:
+     [XmlElement(Type = typeof(Manager))]
 答案：A
 
 56.你正在创建一个列出远程计算机上进程信息的应用。这个应用需要一个方法执行如下的任务：
@@ -382,25 +382,25 @@
   为此，你需要写一段代码得到运行在远程计算机上所有进程的名称，并且增加名称到 ArrayList 对象中。
   请问，应该使用下面哪段代码？
     A. ArrayList al = new ArrayList();
-      Process[] procs = Process.GetProcessesByName(strComputer);
-      foreach (Process proc in procs) {
-         al.Add(proc);
-      }
+       Process[] procs = Process.GetProcessesByName(strComputer);
+       foreach (Process proc in procs) {
+          al.Add(proc);
+       }
     B. ArrayList al = new ArrayList();
-      Process[] procs = Process.GetProcesses(strComputer);
-      foreach (Process proc in procs) {
-         al.Add(proc);
-      }
+       Process[] procs = Process.GetProcesses(strComputer);
+       foreach (Process proc in procs) {
+          al.Add(proc);
+       }
     C. ArrayList al = new ArrayList();
-      Process[] procs = Process.GetProcessesByName(strComputer);
-      foreach (Process proc in procs) {
-         al.Add(proc.ProcessName);
-      }
+       Process[] procs = Process.GetProcessesByName(strComputer);
+       foreach (Process proc in procs) {
+          al.Add(proc.ProcessName);
+       }
      D. ArrayList al = new ArrayList();
-      Process[] procs = Process.GetProcesses(strComputer);
-      foreach (Process proc in procs) {
-         al.Add(proc.ProcessName);
-      }
+        Process[] procs = Process.GetProcesses(strComputer);
+        foreach (Process proc in procs) {
+          al.Add(proc.ProcessName);
+        }
 答案：D
 
 57.你正在写一个名为 MyDictionary 的自定义键/值对的集合(dictionary)。你需要保证MyDictionary 是类型安全的。
@@ -409,9 +409,9 @@
      B. Class MyDictionary Inherits HashTable
      C. Class MyDictionary Implements IDictionary
      D. Class MyDictionary 
-       End Class
-       Dim t As New Dictionary(Of String, String)
-       Dim dict As MyDictionary = Ctype(t, MyDictionary)
+        End Class
+        Dim t As New Dictionary(Of String, String)
+        Dim dict As MyDictionary = Ctype(t, MyDictionary)
 答案：A
 
 58.你需要写一个代码段，从一个流变量 stream1 截取开始的 80 个字节到一个新的字节数组 byteArray 中。
@@ -429,46 +429,46 @@
           byteArray[bytesTransfered++] = Convert.ToByte(stream1.ReadByte());
         }
      D. stream1.Write(byteArray, 0, 80);
-       bytesTransfered = byteArray.Length;
+        bytesTransfered = byteArray.Length;
 答案：A
 
 59.你正在创建一个存储不同地域的客户信息的应用。你为这个应用开发了一个内部的测试版本。
    你需要收集加拿大客户的区域信息，你应该使用哪个代码段？
      A. foreach (CultureInfo culture in CultureInfo.GetCultures(CultureTypes.SpecificCultures)) {
-         // Output the region information…
-       }
+           // Output the region information…
+        }
      B. CultureInfo cultureInfo = new CultureInfo(“CA”); // Output the region information
-C. RegionInfo regionInfo = new RegionInfo(“CA”); // Output the region information
-D. RegionInfo regionInfo = new RegionInfo(“”); 
-  if (regionInfo.Name == “CA”) {
-// Output the region information
-       }
+     C. RegionInfo regionInfo = new RegionInfo(“CA”); // Output the region information
+     D. RegionInfo regionInfo = new RegionInfo(“”); 
+        if (regionInfo.Name == “CA”) {
+            // Output the region information
+        }
 答案：C
 
 60.你正在开发一个使用 DES (Data Encryption Standard) 算法加密敏感数据的方法。
    你的方法接收如下参数：将被加密的字节数组 message, 密钥 key, 初始化向量 iv。
    你需要去加密数据，你也需要把加密数据写入MemoryStream 对象。你应该使用哪段代码？
      A. DES des = new DESCryptoServiceProvider();
-       des.BlockSize = message.Length;
-       ICryptoTranform crypto = des.CreateDecryptor(key, iv);
-       MemoryStream cipherStream = new MemoryStream();
-       CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
-       cryptoStream.Write(message, 0, message.Length);
+        des.BlockSize = message.Length;
+        ICryptoTranform crypto = des.CreateDecryptor(key, iv);
+        MemoryStream cipherStream = new MemoryStream();
+        CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
+        cryptoStream.Write(message, 0, message.Length);
      B. DES des = new DESCryptoServiceProvider();
-       ICryptoTranform crypto = des.CreateDecryptor(key, iv);
-       MemoryStream cipherStream = new MemoryStream();
-       CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
-       cryptoStream.Write(message, 0, message.Length);
+        ICryptoTranform crypto = des.CreateDecryptor(key, iv);
+        MemoryStream cipherStream = new MemoryStream();
+        CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
+        cryptoStream.Write(message, 0, message.Length);
      C. DES des = new DESCryptoServiceProvider();
-       ICryptoTranform crypto = des.CreateDecryptor();
-       MemoryStream cipherStream = new MemoryStream();
-       CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
-       cryptoStream.Write(message, 0, message.Length);
+        ICryptoTranform crypto = des.CreateDecryptor();
+        MemoryStream cipherStream = new MemoryStream();
+        CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
+        cryptoStream.Write(message, 0, message.Length);
      D. DES des = new DESCryptoServiceProvider();
-       ICryptoTranform crypto = des.CreateDecryptor(key, iv);
-       MemoryStream cipherStream = new MemoryStream();
-       CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
-       cryptoStream.Write(message, 0, message.Length);
+        ICryptoTranform crypto = des.CreateDecryptor(key, iv);
+        MemoryStream cipherStream = new MemoryStream();
+        CryptoStream cryptoStream = new CryptoStream(cipherStream, crypto, CryptoStreamModel.Write);
+        cryptoStream.Write(message, 0, message.Length);
 答案：D
 
 61.你的公司正在使用一个名为 Application1 的，基于.NET Framework version 1.0 的应用。
@@ -555,49 +555,49 @@ D. RegionInfo regionInfo = new RegionInfo(“”);
 65.你创建了一个使用最终用户身份进行运行的方法。你需要使用 Microsoft Windows 用户组去验证用户。
    你必须增加一个代码段去验证用户是否在本地用户组 Clerk 里面。你应该使用下面哪个代码段？
       A. WindowsIdentity currentUser = WindowsIdentity.GetCurrent();
-        foreach (IdentityReference grp in currentUser.Groups) {
-           NTAccount grpAccount = (NTAccount) grp.Translate(typeof(NTAccount));
-           isAuthorized = grpAccount.Value.Equals(Environment.MachineName + @”\Clerk”);
-           if (isAuthorized) 
-            break;
-          }
-        }
+         foreach (IdentityReference grp in currentUser.Groups) {
+            NTAccount grpAccount = (NTAccount) grp.Translate(typeof(NTAccount));
+            isAuthorized = grpAccount.Value.Equals(Environment.MachineName + @”\Clerk”);
+            if (isAuthorized) 
+              break;
+            }
+         }
       B. WindowsPrincipal currentUser = (WindowsPrincipal)Thread.CurrentPrincipal;
-        isAuthorized = currentUser.IsInRole(”Clerk”);
+         isAuthorized = currentUser.IsInRole(”Clerk”);
       C. GenericPrincipal currentUser = (GenericPrincipal)Thread.CurrentPrincipal;
-        isAuthorized = currentUser.IsInRole(”Clerk”);
+         isAuthorized = currentUser.IsInRole(”Clerk”);
       D. WindowsPrincipal currentUser = (WindowsPrincipal)Thread.CurrentPrincipal;
-        isAuthorized = currentUser.IsInRole(Environment.MachineName);
+         isAuthorized = currentUser.IsInRole(Environment.MachineName);
 答案：B
 
 66.你正在开发一个在字符串中查找子串的方法。这个方法将被本地化为意大利区域。
    你的方法接收如下参数：被查询的字符串 searchList，要查找的字符串 searchValue。你应该使用下面哪个代码段？
       A. return searchList.IndexOf(searchValue);
       B. CompareInfo comparer = new Culture(“it-IT”).CompareInfo;
-        reutrn comparer.Comparer(searchList, searchValue);
+         reutrn comparer.Comparer(searchList, searchValue);
       C. CultureInfo Comparer = new CultureInfo(“it-IT”);
-        if (searchList.IndexOf(searchValue) > 0)
-           return true;
-        } else {
-           return false;
-        }
+         if (searchList.IndexOf(searchValue) > 0)
+            return true;
+         } else {
+            return false;
+         }
       D. CompareInfo comparer = new Culture(“it-IT”).CompareInfo;
-        if (comparer.Comparer(searchList, searchValue) > 0)
-           return true;
-        } else {
-           return false;
-        }
+         if (comparer.Comparer(searchList, searchValue) > 0)
+            return true;
+         } else {
+            return false;
+         }
 答案：D
 
 67.你需要写一个代码段，它使用名为 netStream 的 NetworkStream 对象传输字节数组 dataToSend 的内容。
    你需要使用一个8192 字节的缓冲区。你应该使用下面哪个代码段？
       A. MemoryStream memStream = new MemoryStream(8192);
-        memStream.Write(dataToSend, 0, (int) netStream.Length);
+         memStream.Write(dataToSend, 0, (int) netStream.Length);
       B. MemoryStream memStream = new MemoryStream(8192);
-        netStream.Write(dataToSend, 0, (int) memStream.Length);
+         netStream.Write(dataToSend, 0, (int) memStream.Length);
       C. BufferedStream bufStream = new BufferedStream(netStream, 8192);
-        bufStream.Write(dataToSend, 0, dataToSend.Length);
+         bufStream.Write(dataToSend, 0, dataToSend.Length);
       D. BufferedStream bufStream = new BufferedStream(netStream);
-        bufStream.Write(dataToSend, 0, 8192);
+         bufStream.Write(dataToSend, 0, 8192);
 答案：C
 ```
