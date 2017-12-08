@@ -171,29 +171,29 @@
 9.你需要创建一个能够和 COM 进行互操作的类。为此，你需要保证 COM 应用能够创建这个类的实例并且能够调用 GetAddress 方法。
   你应该使用哪个代码段定义你的类？
    A. public class Customer
-     {
-       string addressString;
-       public Customer(string address) { addressString = address; }
-       public string GetAddress() { return addressString; }
-     }
+      {
+        string addressString;
+        public Customer(string address) { addressString = address; }
+        public string GetAddress() { return addressString; }
+      }
    B. public class Customer
-     {
-       static string addressString;
-       public Customer() { }
-       public static string GetAddress() { return addressString; }
-     }
+      {
+        static string addressString;
+        public Customer() { }
+        public static string GetAddress() { return addressString; }
+      }
    C. public class Customer
-     {
-       string addressString;
-       public Customer() { }
-       public string GetAddress() { return addressString; }
-     }
+      {
+        string addressString;
+        public Customer() { }
+        public string GetAddress() { return addressString; }
+      }
    D. public class Customer
-     {
-       string addressString;
-       public Customer() { }
-       internal string GetAddress() { return addressString; }
-     }
+      {
+        string addressString;
+        public Customer() { }
+        internal string GetAddress() { return addressString; }
+      }
 答案：C
 
 10. 你正在开发一个类库。你的代码需要访问系统环境变量。对于未给调用堆栈中处于较高位置的所有调用方授予当前实例所指定的权限，
