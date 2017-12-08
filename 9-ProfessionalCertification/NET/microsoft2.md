@@ -88,16 +88,16 @@
   你应该使用下面哪段代码？
    A.[OnSerializing]internal void UpdateValue(StreamingContext context) {
        currRate = GetCurrentRate();
-   }
+     }
    B.[OnSerializing]internal void UpdateValue(SerialzationInfo info) {
        Info.AddValue(“currRate”, GetCurrentRate());
-   }
+     }
    C.[OnDserializing]internal void UpdateValue(SerialzationInfo info) {
-      Info.AddValue(“currRate”, GetCurrentRate());
-   }
+       Info.AddValue(“currRate”, GetCurrentRate());
+     }
    D.[OnDserialized]internal void UpdateValue(StreamingContext context) {
-      currRate = GetCurrentRate();
-   }
+       currRate = GetCurrentRate();
+     }
 答案：D
 
 29.你正在写一个使用独立存储区(isolated storage) 存储用户参数信息的应用。
@@ -128,7 +128,7 @@
           public int Copies {
              get { return this.copies; }
           }
-     }
+       }
      B.public class PrintingArgs : EventArgs {
           private int copies;
           public PrintingArgs(int numberOfCopies) {
@@ -183,14 +183,14 @@
               entry.EntryType == EventLogEntryType.Warning) {
               PersistToDB(entry);
            }
-        }
+         }
       D. EventLog myLog = new EventLog(“Application”, “.”);
          foreach (EventLogEntry entry in myLog.Entries) {
            if (entry.EntryType == EventLogEntryType.Error || 
               entry.EntryType == EventLogEntryType.Warning) {
               PersistToDB(entry);
            }
-        }
+         }
 答案：C
 
 33.你正在为一个客户开发一个财务报表。你的客户在美国有总部，在墨西哥有分部。
@@ -266,13 +266,13 @@
 36.你正在开发一个使用自定义身份验证和基于角色安全的应用。
    你需要写一段代码运行时为每个线程指定一个未经过身份验证的标识对象。你可以使用下面哪个代码段？
      A. AppDomain domain = AppDomain.CurrentDomain;
-       domain.SetPrincipalPolicy(PrincipalPolicy.WindowsPrincipal);
+        domain.SetPrincipalPolicy(PrincipalPolicy.WindowsPrincipal);
      B. AppDomain domain = AppDomain.CurrentDomain;
-       domain.SetThreadPrincipal(new WindowsPrincipal(null));
+        domain.SetThreadPrincipal(new WindowsPrincipal(null));
      C. AppDomain domain = AppDomain.CurrentDomain;
-       domain.SetAppDomainPolicy(PolicyLevel.CreateAppDomainLevel());
+        domain.SetAppDomainPolicy(PolicyLevel.CreateAppDomainLevel());
      D. AppDomain domain = AppDomain.CurrentDomain;
-       domain.SetPrincipalPolicy(PrincipalPolicy.UnauthenticatedPrincipal);
+        domain.SetPrincipalPolicy(PrincipalPolicy.UnauthenticatedPrincipal);
 答案：D
 
 37.你正在写一个返回值为 ArrayList 对象 al 的方法。你需要保证对 ArrayList 的修改是线程安全的。
