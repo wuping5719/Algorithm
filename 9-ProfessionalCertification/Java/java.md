@@ -1,4 +1,4 @@
-<h2> Java 初级认证考试试题及答案 :books: </h2> 
+<h2> Java 初级认证试题及答案 :books: </h2> 
 
 > Java 初级认证题, Java Swing 比较多，有一定的借鉴意义。
  
