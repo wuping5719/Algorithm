@@ -4,4 +4,5 @@
 
 * <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft1.md">01-20 题</a>
 * <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft2.md">21-40 题</a>
-* <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft3.md">41-67 题</a>
+* <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft3.md">41-60 题</a>
+* <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft4.md">61-71 题</a>
