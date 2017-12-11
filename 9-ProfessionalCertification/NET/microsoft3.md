@@ -644,21 +644,21 @@
 
 70.你需要开发一个显示任务进度的闪屏。为此，你需要在屏幕上画出一个使用渐变阴影进行填充的矩形，你应该使用下面哪种代码段？
      A.Rectangle rectangle = new Rectangle(10, 10, 40, 2);
-       LinearGradientBrush rectangleBrush = 
-          new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue, LinearGradientMode.ForwardDiagonal);
+       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, 
+          Color.CornflowerBlue, LinearGradientMode.ForwardDiagonal);
        Pen rectanglePen = new Pen(rectangleBrush);
        Graphics g = this.CreateGraphics();
        g.DrawRectangle(rectanglePen, rectangle);
      B.Rectangle rectangle = new Rectangle(10, 10, 40, 2);
-       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue,                 
-                LinearGradientMode.ForwardDiagonal);
+       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, 
+             Color.CornflowerBlue, LinearGradientMode.ForwardDiagonal);
        Pen rectanglePen = new Pen(rectangleBrush);
        Graphics g = this.CreateGraphics();
        g.FillRectangle(rectangleBrush, rectangle);
      C.RectangleF rectangle = new RectangleF(10f, 10f, 40f, 2f);
        Ponit[] points = new Point[] { new point(0, 0), new Point(110, 14) };
-       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue,     
-                LinearGradientMode.ForwardDiagonal);
+       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, 
+              Color.CornflowerBlue, LinearGradientMode.ForwardDiagonal);
        Pen rectanglePen = new Pen(rectangleBrush);
        Graphics g = this.CreateGraphics();
        g.DrawPolygon(rectanglePen, points);
