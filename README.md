@@ -184,3 +184,7 @@
 <a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/NET/microsoft.md" >
    &nbsp; 微软.NET认证 &nbsp;
 </a> 
+
+<a href="https://github.com/wuping5719/Algorithm/blob/master/9-ProfessionalCertification/Java/java.md" >
+   &nbsp; Java 初级认证 &nbsp;
+</a> 
