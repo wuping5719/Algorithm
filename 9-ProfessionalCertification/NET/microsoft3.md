@@ -600,4 +600,86 @@
       D. BufferedStream bufStream = new BufferedStream(netStream);
          bufStream.Write(dataToSend, 0, 8192);
 答案：C
+
+68.你正在为应用域创建一个新的安全策略。你写了如下代码：
+      PolicyLevel policy = PolicyLevel.CreateAppDomainLevel();
+      PolicyStatement noTrustStatement = new PolicyStatement(policy.GetNamedPermissionSet(“Nothing”));
+      PolicyStatement fullTrustStatement = new PolicyStatement(policy.GetNamedPermissionSet(“FullTrust”));
+   你需要为策略安排代码组，以至装载程序集默认为 Nothing 权限集。
+   如果程序集从 Trusted Zone 装载，则安全策略必须许可程序集为完全信任。你应该使用哪个代码段？
+       A.CodeGroup group1 = new FirstMatchCodeGroup(
+               new ZoneMembershipCondition(SecurityZone.Trusted), fullTrustStatement);
+         CodeGroup group2 = new UnionCodeGroup(
+               new AllMembershipCondition(), noTrustStatement);
+         group1.AddChild(group2);
+       B.CodeGroup group1 = new FirstMatchCodeGroup(
+                 new AllMembershipCondition(), noTrustStatement);
+         CodeGroup group2 = new UnionCodeGroup(
+                 new ZoneMembershipCondition(SecurityZone.Trusted), fullTrustStatement);         
+                 group1.AddChild(group2);
+       C.CodeGroup group = new UnionCodeGroup(
+                 new ZoneMembershipCondition(SecurityZone.Trusted), fullTrustStatement);
+       D.CodeGroup group = new FirstMatchCodeGroup(
+                 new AllMembershipCondition(), noTrustStatement);
+答案：B
+
+69.你正在开发一个在字符串中查找子串的方法。这个方法将被本地化为意大利区域。
+   你的方法接收如下参数：被查询的字符串 searchList，要查找的字符串 searchValue。你应该使用下面哪个代码段？
+       A.return searchList.IndexOf(searchValue);
+       B.CompareInfo comparer = new CultureInfo(“it-IT”).CompareInfo;
+         return comparer.Compare(searchList, searchValue);
+       C.CultureInfo Comparer = new CultureInfo(“it-IT”);
+         if (searchList.IndexOf(searchValue) > 0) {
+            return ture;
+         } else {
+            Return flase;
+         }
+       D.CompareInfo comparer = new CultureInfo(“it-IT”).CompareInfo;
+         if (comparer.Compare (searchList, searchValue) > 0) {
+            return ture;
+         } else {
+            Return flase;
+         }
+答案：D
+
+70.你需要开发一个显示任务进度的闪屏。为此，你需要在屏幕上画出一个使用渐变阴影进行填充的矩形，你应该使用下面哪种代码段？
+     A.Rectangle rectangle = new Rectangle(10, 10, 40, 2);
+       LinearGradientBrush rectangleBrush = 
+          new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue, LinearGradientMode.ForwardDiagonal);
+       Pen rectanglePen = new Pen(rectangleBrush);
+       Graphics g = this.CreateGraphics();
+       g.DrawRectangle(rectanglePen, rectangle);
+     B.Rectangle rectangle = new Rectangle(10, 10, 40, 2);
+       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue,                 
+                LinearGradientMode.ForwardDiagonal);
+       Pen rectanglePen = new Pen(rectangleBrush);
+       Graphics g = this.CreateGraphics();
+       g.FillRectangle(rectangleBrush, rectangle);
+     C.RectangleF rectangle = new RectangleF(10f, 10f, 40f, 2f);
+       Ponit[] points = new Point[] { new point(0, 0), new Point(110, 14) };
+       LinearGradientBrush rectangleBrush = new LinearGradientBrush(rectangle, Color.AliceBlue, Color.CornflowerBlue,     
+                LinearGradientMode.ForwardDiagonal);
+       Pen rectanglePen = new Pen(rectangleBrush);
+       Graphics g = this.CreateGraphics();
+       g.DrawPolygon(rectanglePen, points);
+     D.RectangleF rectangle = new RectangleF(10f, 10f, 40f, 2f);
+       SolidBrush rectangleBrush = new SolidBrush(Color.AliceBlue);  
+       Pen rectanglePen = new Pen(rectangleBrush);
+       Graphics g = this.CreateGraphics();
+       g.DrawRectangle(rectangleBrush, rectangle);
+答案：B
+
+71.你正在开发一个在网络上传输敏感信息的服务器应用。
+   你创建了一个 X509Certificate 对象 certificate 和一个 TcpClient 对象client。
+   你需要创建一个 SslStream 对象，从而通过 Transport Layer Security 1.0 协议(TLS 1.0 安全协议)进行通讯。
+   你应该使用哪个代码段？
+      A.SslStream ssl = new SslStream(client.GetStream());
+        ssl.AuthenticateAsServer(certificate, false, SslProtocols.None, true);
+      B.SslStream ssl = new SslStream(client.GetStream());
+        ssl.AuthenticateAsServer(certificate, false, SslProtocols.Ssl3, true);
+      C.SslStream ssl = new SslStream(client.GetStream());
+        ssl.AuthenticateAsServer(certificate, false, SslProtocols.Ssl2, true);
+      D.SslStream ssl = new SslStream(client.GetStream());
+        ssl.AuthenticateAsServer(certificate, false, SslProtocols.Tls, true);
+答案：D
 ```
