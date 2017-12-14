@@ -91,12 +91,12 @@
    System.Web.UI.HtmlControls;
    System.Web.UI.WebControls
 
-11.	是否可以自己创建服务器控件？
+11.是否可以自己创建服务器控件？
    答：可以。定义从System.Web.UI.Control 派生的类并重写它的Render方法。
      Render方法采用System.Web.UI.HtmlTextWriter 类型的参数。
      控件要发送到客户端的HTML作为字符串参数传递到HtmlTextWriter的Write方法。
 
-12.	如何在ASP.NET程序中发送邮件？
+12.如何在ASP.NET程序中发送邮件？
   答：在.NET的框架基类的System.Web.Mail名称空间内包含MailMessage和SmtpMail 类可以实现这个功能。
   例如：
      Dim message As new Mail.MailMessage
@@ -107,7 +107,7 @@
      Mail.SmtpMail.SmtpServer = “localhost”
      Mail.SmtpMailSend(message)
 
-13.	ASP.NET状态管理方式？
+13.ASP.NET状态管理方式？
   答：客户端：ASP.NET提供了Cookie，QueryString(URL)，Hidden field，
     ViewState and Control state(ASP.NET 2.0)，来管理客户端请求。
     服务端：Application，Session。
