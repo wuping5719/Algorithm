@@ -63,7 +63,7 @@
        isoStream = new IsolatedStorageFileStream(“Setting.dat”, FileMode.Open);
        string result = new StreamReader(isoStream).ReadToEnd();
     B. IsolatedStorageFile isoFile;
-       isoFile = IsolatedStorageFile. GetMachineStoreForAssembly();
+       isoFile = IsolatedStorageFile.GetMachineStoreForAssembly();
        IsolatedStorageFileStream isoStream;
        isoStream = new IsolatedStorageFileStream(“Setting.dat”, FileMode.Open, isoFile);
        string result = new StreamReader(isoStream).ReadToEnd();
