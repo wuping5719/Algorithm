@@ -1,5 +1,8 @@
-ASP.NET 教程 -- W3School
+<h2> ASP.NET 教程 -- W3School :books: </h2> 
 
+> ASP.NET 知识点整理。
+ 
+```C#
 1.ASP.NET 支持三种开发模式：Web Pages(单页面模型)、MVC(模型视图控制器)、Web Forms(事件驱动模型)。
 
 2.ASP 指 Active Server Pages (动态服务器页面); 
@@ -40,3 +43,4 @@ ASP.NET 教程 -- W3School
   (6) VB 文件的扩展名是 .vbhtml。
 
 9.ASP.NET 提供三种处理文件夹路径的工具：~ 操作符、Server.MapPath 方法以及 Href 方法。
+```
