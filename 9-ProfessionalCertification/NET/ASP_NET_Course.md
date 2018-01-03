@@ -43,4 +43,22 @@
   (6) VB 文件的扩展名是 .vbhtml。
 
 9.ASP.NET 提供三种处理文件夹路径的工具：~ 操作符、Server.MapPath 方法以及 Href 方法。
+
+10.在 ASP.NET 2.0 中，菜单可存储在文件中，这样维护起来更加方便。
+这个文件通常名为 web.sitemap，被存放在网站的根目录中。
+  创建 sitemap 文件的规则：
+  (1) XML 文件必须包含围绕内容的 <siteMap> 标签；
+  (2) <siteMap> 标签只能有一个 <siteMapNode> 子节点("home" page)；
+  (3) 每个 <siteMapNode> 可以有多个子节点(web pages)；
+  (4) 每个 <siteMapNode> 拥有定义页面标题和 URL 的属性。
+  示例：
+  <?xml version="1.0" encoding="utf-8" ?>
+  <siteMap>
+    <siteMapNode title="Home" url="/aspnet/home.aspx">
+        <siteMapNode title="Services" url="/aspnet/services.aspx">
+            <siteMapNode title="Training" url="/aspnet/training.aspx"/>
+            <siteMapNode title="Support" url="/aspnet/support.aspx"/>
+        </siteMapNode>
+    </siteMapNode>
+  </siteMap>
 ```
