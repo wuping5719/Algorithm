@@ -11,10 +11,10 @@ using System.Reflection;
 using log4net;
 using Pechkin;
 using Pechkin.Synchronized;
-using CMBChina.KYC.BLL.Report;
-using CMBChina.KYC.Model.Report;
+using OUC.KYC.BLL.Report;
+using OUC.KYC.Model.Report;
 
-namespace CMBChina.KYC.Web.Util
+namespace OUC.KYC.Web.Util
 {
     // 网页生成Pdf工具类
     // AddBy WuPing 2018-11-06
