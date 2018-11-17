@@ -11,7 +11,7 @@ using log4net;
 using OUC.KYC.BLL.Report;
 using OUC.KYC.Model.Report;
 
-namespace CMBChina.KYC.Web.Util
+namespace OUC.KYC.Web.Util
 {
     // 网页生成Png图片工具类
     // AddBy WuPing 2018-11-06
