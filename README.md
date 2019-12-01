@@ -25,12 +25,12 @@
         <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-31-NewMeiDa/Experiences.md">5.新美大(美团,大众点评)(NewMeiDa)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-33-JingDong/Experiences/Experience201609.md">6.京东(JingDong)</a>
+        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">6.华为(HuaWei-OJ)</a>
      </td>
    </tr>
    <tr>
      <td>
-        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">7.华为(HuaWei-OJ)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-33-JingDong/Experiences/Experience201609.md">7.京东(JingDong)</a>
      </td>
      <td>
         <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-14-NetEase">8.网易(NetEase)</a>
