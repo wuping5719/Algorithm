@@ -47,7 +47,7 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-23-QiHu360">11.奇虎360(QiHu360)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-26-PerfectWorld">12.完美世界(PerfectWorld)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE">12.中兴(ZTE)</a>
      </td>
    </tr>
    <tr>
@@ -58,7 +58,7 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-20-Ctrip">14.携程(Ctrip)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-17-ZTE">15.中兴(ZTE)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-26-PerfectWorld">15.完美世界(PerfectWorld)</a>
      </td>
    </tr>
    <tr>
