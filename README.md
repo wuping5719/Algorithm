@@ -19,7 +19,7 @@
    </tr>
    <tr>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-25-TouTiao">4.今日头条(TouTiao)</a>
+       <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-25-TouTiao">4.字节跳动(ByteDance)</a>
      </td>
      <td>
         <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-31-NewMeiDa/Experiences.md">5.新美大(美团,大众点评)(NewMeiDa)</a>
