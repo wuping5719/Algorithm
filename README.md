@@ -30,13 +30,13 @@
    </tr>
    <tr>
      <td>
-        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-14-NetEase">7.网易(NetEase)</a>
+        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">7.华为(HuaWei-OJ)</a>
      </td>
      <td>
-       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-21-DidiTaxi/Experiences.md">8.滴滴打车(DidiTaxi)</a>
+        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-14-NetEase">8.网易(NetEase)</a>
      </td>
      <td>
-        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">9.华为(HuaWei-OJ)</a>
+       <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-21-DidiTaxi/Experiences.md">9.滴滴打车(DidiTaxi)</a>
      </td>
    </tr>
    <tr>
