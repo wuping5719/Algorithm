@@ -22,7 +22,8 @@
        <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-25-TouTiao">4.字节跳动(ByteDance)</a>
      </td>
      <td>
-        <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-31-NewMeiDa/Experiences.md">5.新美大(美团,大众点评)(NewMeiDa)</a>
+        <a href="https://github.com/wuping5719/Algorithm/blob/master/2-Java-Interview/2-31-NewMeiDa/Experiences.md">5.美团点评
+ (MeiTuan)</a>
      </td>
      <td>
         <a href="https://github.com/wuping5719/Algorithm/tree/master/2-Java-Interview/2-16-huaweiOJ">6.华为(HuaWei)</a>
